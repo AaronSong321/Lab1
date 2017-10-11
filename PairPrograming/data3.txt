@@ -1,0 +1,1 @@
+This data is used to check if the git works in a correct routine, so there is little useful information here.
