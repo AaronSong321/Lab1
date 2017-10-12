@@ -1,4 +1,4 @@
 This data is used to check if the git works in a correct routine, so there is little useful information here.
 Now this is the modification for the data3.txt as the experiment instrument claimed.
 The original modifying has been changed in data3.txt.
-This is the modify in branch B1.
+This is the modify in branch B1 and C4.
