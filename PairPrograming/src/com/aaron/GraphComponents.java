@@ -4,7 +4,7 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-/*第三次修改*/
+
 public class GraphComponents {
 	public VNode[] vertexes;
 	public ENode[] edges;
