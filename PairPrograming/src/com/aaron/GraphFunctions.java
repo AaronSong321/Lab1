@@ -1,8 +1,8 @@
 package com.aaron;
+
 import java.util.Calendar;
 import java.util.Random;
 import com.aaron.ListDG.ENode;
-
 
 public class GraphFunctions {
 	public static String queryBridgeWords(ListDG G,String src,String dst) {
@@ -38,7 +38,7 @@ public class GraphFunctions {
 			}else if(countnum==1) {
 				return("The bridge word between "+src+" and "+dst+" is"+result.toString()+".");
 			}else {
-				return("The bridge word between "+src+" and "+dst+" are"+result.toString()+".");				
+				return("The bridge word between "+src+" and "+dst+" are"+result.toString()+".");
 			}
 		}
 	}
@@ -49,7 +49,7 @@ public class GraphFunctions {
 		String s="we seasons the we joy";
 		System.out.println(generateNewText(g, s));
 	}
-	
+
 	public static String generateNewText(ListDG G, String passin) {
 		if(r==null) {
 			randomStart();
@@ -140,21 +140,21 @@ public class GraphFunctions {
 			int[] nodechild=new int[G.mVexs.length];
 			int childnum=0;
 			int tmpplace=0;
-			
+
 			int[] result=new int[G.length()];
 			randombegin(G);
 			result[0]=nowplace;
 			tmpplace=tmpplace+1;
-			
+
 			boolean[][]visited=new boolean[G.mVexs.length][G.mVexs.length];
 			ENode tmpvisit=G.mVexs[nowplace].firstEdge;
-			
+
 			for(int i=0;i<G.mVexs.length;i++) {
 				for(int j=0;j<G.mVexs.length;j++) {
 					visited[i][j]=false;
 				}
 			}
-			
+
 			while(endsign==false) {
 				if(tmpvisit==null) {
 					endsign=true;
@@ -176,7 +176,7 @@ public class GraphFunctions {
 					}
 				}
 			}
-			
+
 			int[] res=new int[tmpplace];
 			System.out.println("Travel words in functions is:");
 			for(int i=0;i<tmpplace;i++) {
@@ -188,7 +188,7 @@ public class GraphFunctions {
 		}
 /*
 		public static int[] randomRun(ListDG G){
-			
+
 			boolean endsign=true;
 			if(r==null) {
 				randomStart();
@@ -197,17 +197,17 @@ public class GraphFunctions {
 			int tmpplace=0;
 			boolean[][] judgevisit=new boolean[G.length()][G.length()];
 			ENode tmpvisit;
-			
+
 			for(int i=0;i<G.mVexs.length;i++) {
 				for(int j=0;j<G.mVexs.length;j++) {
 					judgevisit[i][j]=false;
 				}
 			}
-			
+
 			randombegin(G);
-			
+
 			tmpvisit=G.mVexs[nowplace].firstEdge;
-			
+
 			int tmpstore[]=new int[G.mVexs.length];
 			tmpstore[0]=nowplace;
 			int count=1;
@@ -237,19 +237,19 @@ public class GraphFunctions {
 					}
 				}
 			}
-			
+
 			int finnal[]=new int[count];
 			for(int i=0;i<count;i++) {
 				finnal[i]=tmpstore[i];
 				System.out.print(G.mVexs[finnal[i]].data+" ");
 			}
 			System.out.print("\n");
-			
+
 			return finnal;
 		}
 
-*/	
-	
+*/
+
 	public static int[] Dijkstra(ListDG G,String src,String dst) {
 		int[][] graph=new int[G.mVexs.length][G.mVexs.length];
 		int[][] store=new int[G.mVexs.length][G.mVexs.length];
@@ -267,16 +267,16 @@ public class GraphFunctions {
 				tmp=tmp.nextEdge;
 			}
 		}
-		
+
 		int srcnum=G.hashTable.get(src);
 		int dstnum=G.hashTable.get(dst);
-		
+
 		int[] num=new int[G.mVexs.length];
 		int[] shortest=new int[G.mVexs.length];
 		int shortnum=0;
-		
+
 		boolean[] finish=new boolean[G.mVexs.length];
-		int[] D=new int[G.mVexs.length];		
+		int[] D=new int[G.mVexs.length];
 
 		for(int i=0;i<G.mVexs.length;i++) {
 			D[i]=graph[srcnum][i];
@@ -319,7 +319,7 @@ public class GraphFunctions {
 			store[v][num[v]++]=v;
 //			queue[v].insert(v);
 		}
-		
+
 		int count=1;
 		int[] result=new int[shortnum+2];
 		result[0]=srcnum;
@@ -331,11 +331,6 @@ public class GraphFunctions {
 		//	System.out.print(shortest[i]+" ");
 		}
 		//System.out.print("\n");
-/*
-		for(int i=0;i<result.length;i++) {
-			System.out.println(result[i]);
-		}	
-*/
 		result[result.length-1] = D[dstnum];
 		return result;
 	}
