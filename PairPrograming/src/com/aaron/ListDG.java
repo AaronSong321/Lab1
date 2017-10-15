@@ -24,7 +24,7 @@ public class ListDG {
     public VNode[] mVexs;
     public Hashtable<String,Integer> hashTable;
     private final int MAX_WORDS = 100;
-    
+
     public ListDG(File file) throws FileNotFoundException{
     	BufferedReader reader = null;
     	try{
@@ -92,7 +92,7 @@ public class ListDG {
 	    			linkLast(tokens[i], newNode);
     			}
     		}
-    		mEdgNum -= repeatEdge;   
+    		mEdgNum -= repeatEdge;
     		hashTable = new Hashtable<String, Integer>();
     		for(int i=0;i<mVexs.length;i++)
     			hashTable.put(mVexs[i].data, i);
@@ -106,7 +106,7 @@ public class ListDG {
     				tempEdge = tempEdge.nextEdge;
     			}
     			System.out.println();
-    		}	
+    		}
     		*/
     	} catch(IOException e){
     		e.printStackTrace();
@@ -120,7 +120,7 @@ public class ListDG {
     		}
     	}
     }
-    
+
     private void linkLast(int startv, ENode node){
     	if (mVexs[startv].firstEdge == null) mVexs[startv].firstEdge = node;
     	else{
@@ -129,44 +129,15 @@ public class ListDG {
     		end.nextEdge = node;
     	}
     }
-/*	
-    public void dijkstra(int vs, int[] prev, int[] dist) {
-    	FibHeap H = new FibHeap();
-        boolean[] flag = new boolean[mVexs.length];
-        for (int i = 0; i < mVexs.length; i++) {
-            flag[i] = false;
-            prev[i] = 0;
-            dist[i] = INF;
-        }
-        dist[vs] = 0;
-        H.insert(vs, 0);
-        while(H.minimum_key() != -1) {
-        	int u = H.minimum_name();
-        	H.removeMin();
-            if(flag[u])	continue;
-            flag[u] = true;
-            ENode p = mVexs[u].firstEdge;
-            
-            while(p != null){
-            	int v = p.ivex;
-            	if(flag[v]==false&&dist[v]>dist[u]+p.weight){
-            		dist[v] = dist[u]+p.weight;
-            		prev[v] = u;
-            		H.insert(v, dist[v]);
-            	}
-            	p = p.nextEdge;
-            }
-        }
-    }
-*/
+
 	public int length() {
 		return mVexs.length;
 	}
-	
+
 	public int edgeNum(){
 		return mEdgNum;
 	}
-	
+
 	public void toDot(){
 		File dotFile;
 		FileWriter dotFileWriter;
@@ -176,7 +147,7 @@ public class ListDG {
 			if (!dotFile.exists()) dotFile.createNewFile();
 			dotFileWriter = new FileWriter(dotFile, false);
 			dotBufferedWriter = new BufferedWriter(dotFileWriter);
-			
+
 			dotBufferedWriter.write("digraph G {\n");
 			dotBufferedWriter.write("size = \"4,4\";\n");
 			dotBufferedWriter.write("rankdir = LR;\n");
@@ -198,3 +169,4 @@ public class ListDG {
 		}
 	}
 }
+

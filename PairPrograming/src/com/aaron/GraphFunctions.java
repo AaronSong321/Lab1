@@ -186,69 +186,6 @@ public class GraphFunctions {
 			System.out.println();
 			return res;
 		}
-/*
-		public static int[] randomRun(ListDG G){
-
-			boolean endsign=true;
-			if(r==null) {
-				randomStart();
-			}
-			int[] nodechild = new int[100];
-			int tmpplace=0;
-			boolean[][] judgevisit=new boolean[G.length()][G.length()];
-			ENode tmpvisit;
-
-			for(int i=0;i<G.mVexs.length;i++) {
-				for(int j=0;j<G.mVexs.length;j++) {
-					judgevisit[i][j]=false;
-				}
-			}
-
-			randombegin(G);
-
-			tmpvisit=G.mVexs[nowplace].firstEdge;
-
-			int tmpstore[]=new int[G.mVexs.length];
-			tmpstore[0]=nowplace;
-			int count=1;
-			while(endsign==false) {
-				if(tmpvisit==null) {
-					endsign=true;
-				}else {
-					do {
-						nodechild[tmpplace]=tmpvisit.ivex;
-					//	System.out.println("child"+tmpvisit.ivex);
-						tmpplace=tmpplace+1;
-						tmpvisit=tmpvisit.nextEdge;
-					}while(tmpvisit!=null);
-					if(endsign==false) {
-				//		System.out.println(nowplace);
-						int randomchoice=generateNextRandom(tmpplace);
-						if(judgevisit[nowplace][randomchoice]==false) {
-							if (nowplace==randomchoice) {
-								endsign=true;
-							}
-							judgevisit[nowplace][randomchoice]=true;
-							nowplace=nodechild[randomchoice];
-							tmpstore[count++]=nowplace;
-						}else {
-							endsign=true;
-						}
-					}
-				}
-			}
-
-			int finnal[]=new int[count];
-			for(int i=0;i<count;i++) {
-				finnal[i]=tmpstore[i];
-				System.out.print(G.mVexs[finnal[i]].data+" ");
-			}
-			System.out.print("\n");
-
-			return finnal;
-		}
-
-*/
 
 	public static int[] Dijkstra(ListDG G,String src,String dst) {
 		int[][] graph=new int[G.mVexs.length][G.mVexs.length];
@@ -336,3 +273,5 @@ public class GraphFunctions {
 	}
 
 }
+
+
