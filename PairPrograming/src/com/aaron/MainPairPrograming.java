@@ -156,8 +156,12 @@ public class MainPairPrograming extends JFrame implements ActionListener{
 		componentsToDraw = new GraphComponents(graph);
 		componentsToDraw.toDot("DotFile.gv");
 		File dotFile = new File("DotFile.gv");
+<<<<<<< HEAD
 		File thisDirectory = new File("");
 		Command.execute(thisDirectory.getAbsolutePath()+"\\dot "+dotFile.getAbsolutePath()+" -T gif -o Graph.gif");
+=======
+		Command.execute(DotPath+" "+dotFile.getAbsolutePath()+" -T gif -o Graph.gif");
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
 	}
 	
 	private void close(){
@@ -179,9 +183,14 @@ public class MainPairPrograming extends JFrame implements ActionListener{
 	
 	private void showGraph(){
 		componentsToDraw.toDot("DotFileRunning.gv");
+<<<<<<< HEAD
 		File theDirectory = new File("DotFileRunning.gv");
 		File thisDirectory = new File("");
 		Command.execute(thisDirectory.getAbsolutePath()+"\\dot "+theDirectory.getAbsolutePath()+" -T gif -o GraphRunning.gif");
+=======
+		File thisDirectory = new File("DotFileRunning.gv");
+		Command.execute(DotPath+" "+thisDirectory.getAbsolutePath()+" -T gif -o GraphRunning.gif");
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
 		
 		bridgeWordsJMI.setEnabled(true);
 		newTextJMI.setEnabled(true);
@@ -370,7 +379,11 @@ public class MainPairPrograming extends JFrame implements ActionListener{
 					componentsToDraw.vertexes[theway[wayIndex++]].setColor("red");
 					File thisDirectory = new File("");
 					componentsToDraw.toDot("DotFileRunning.gv");
+<<<<<<< HEAD
 					Command.execute(thisDirectory.getAbsolutePath()+"\\dot "+thisDirectory.getAbsolutePath()+" -T gif -o "+thisDirectory.getAbsolutePath()+"\\GraphRunning.gif");
+=======
+					Command.execute(DotPath+" "+thisDirectory.getAbsolutePath()+" -T gif -o "+thisDirectory.getAbsolutePath()+"\\GraphRunning.gif");
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
 				}
 			}
 		});
@@ -405,7 +418,11 @@ public class MainPairPrograming extends JFrame implements ActionListener{
 				if (oldRunningGraph.exists()) oldRunningGraph.delete();
 				File thisDirectory = new File("");
 				componentsToDraw.toDot("DotFileRunning.gv");
+<<<<<<< HEAD
 				Command.execute(thisDirectory.getAbsolutePath()+"\\dot "+thisDirectory.getAbsolutePath()+" -T gif -o "+thisDirectory.getAbsolutePath()+"\\GraphRunning.gif");
+=======
+				Command.execute(DotPath+" "+thisDirectory.getAbsolutePath()+" -T gif -o "+thisDirectory.getAbsolutePath()+"\\GraphRunning.gif");
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
 			}
 		});
 		
@@ -459,7 +476,11 @@ public class MainPairPrograming extends JFrame implements ActionListener{
 				componentsToDraw.vertexes[places[placeIndex]].setColor("red");
 				File thisDirectory = new File("");
 				componentsToDraw.toDot("DotFileRunning.gv");
+<<<<<<< HEAD
 				Command.execute(thisDirectory.getAbsolutePath()+"\\dot "+thisDirectory.getAbsolutePath()+" -T gif -o "+thisDirectory.getAbsolutePath()+"\\GraphRunning.gif");
+=======
+				Command.execute(DotPath+" "+thisDirectory.getAbsolutePath()+" -T gif -o "+thisDirectory.getAbsolutePath()+"\\GraphRunning.gif");
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
 				//travelContinue.setEnabled(true);
 				travelStop.setEnabled(true);
 			}
@@ -507,7 +528,11 @@ public class MainPairPrograming extends JFrame implements ActionListener{
 				if (oldRunningGraph.exists()) oldRunningGraph.delete();
 				File thisDirectory = new File("");
 				componentsToDraw.toDot("DotFileRunning.gv");
+<<<<<<< HEAD
 				Command.execute(thisDirectory.getAbsolutePath()+"\\dot "+thisDirectory.getAbsolutePath()+" -T gif -o "+thisDirectory.getAbsolutePath()+"\\GraphRunning.gif");
+=======
+				Command.execute(DotPath+" "+thisDirectory.getAbsolutePath()+" -T gif -o "+thisDirectory.getAbsolutePath()+"\\GraphRunning.gif");
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
 				travelStop.setEnabled(false);
 				//travelContinue.setEnabled(false);
 			}

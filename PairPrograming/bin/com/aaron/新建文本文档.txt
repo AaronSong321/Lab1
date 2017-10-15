@@ -1,0 +1,140 @@
+class Node{
+	protected int id;
+	protected int d;
+}
+
+class Dij{
+	private static int INF = 9999;
+	ArrayList<Integer>[] prev;
+	int size;
+	Node[] dist;
+	PriorityQueue<Node> queue = new PriorityQueue<Node>();
+	boolean[] flag;
+	@SuppressWarnings("unchecked") //*** 
+	public Dij(int vertexNum){
+		size = vertexNum;
+		prev = new ArrayList[size];
+		flag = new boolean[size];
+		dist = new Node[size];
+		//System.out.println(dist.length);
+		for (int i = 0;i<size;i++){
+			prev[i] = new ArrayList<Integer>();
+			prev[i].add(-1);
+			flag[i] = false;
+			dist[i] = new Node();
+			dist[i].id = i;
+			dist[i].d = INF;
+		}
+		queue = new PriorityQueue<Node>(size,
+			new Comparator<Node>(){
+				public int compare(Node n1,Node n2){ 
+					return n1.d - n2.d;
+				}
+		});
+	}
+	public void dijkstra(int s,Vertex[] head){
+		//System.out.println(G.head.length);
+		dist[s].d = 0;
+		queue.add(dist[s]);
+		while(queue.peek()!=null){
+			Node temp=queue.poll();
+			Edge p = head[temp.id].adjacent;
+			int u = temp.id;
+			
+			if(flag[u]) continue;
+			flag[u] = true;
+			
+			while(p != null){
+				int tempid = p.verAdj;
+				int tempcost = p.cost;
+				if(!flag[tempid]){
+					if( dist[tempid].d > dist[u].d+tempcost){
+						dist[tempid].d = dist[u].d+tempcost;
+						prev[tempid].clear();
+						prev[tempid].add(u);
+						queue.add(dist[tempid]);
+					}else if(dist[tempid].d == dist[u].d+tempcost){
+						prev[tempid].add(u);
+					}
+				}
+				
+				p = p.link;
+			}
+		}
+	}
+	
+	public ArrayList<ArrayList<Integer>> findpath(int beg,int end){
+		ArrayList<ArrayList<Integer>> childPaths = new ArrayList<ArrayList<Integer>>();
+		ArrayList<ArrayList<Integer>> midPaths = new ArrayList<ArrayList<Integer>>();
+		if(beg != end){
+			for(int i=0;i<prev[end].size();i++){
+				childPaths = findpath(beg,prev[end].get(i));
+				for(int j=0;j<childPaths.size();j++){
+					childPaths.get(j).add(end);
+				}
+				if(midPaths.size()==0){
+					midPaths = childPaths;
+				}else{
+					midPaths.addAll(childPaths);
+				}
+			}
+		}else{
+			ArrayList<Integer> temp = new ArrayList<Integer>(1);
+			temp.add(beg);
+			midPaths.add(temp);
+		}
+		return midPaths;
+	}
+}
+
+	public static String calcShortestPath(String word1,String word2){
+		int INF = 9999;
+		String ans = "";
+		int w1=-1,w2=-1;
+		for(int i=0;i<vertexNum;i++){
+			if(word1.equals(head[i].Name))
+				w1 = i;
+			if(word2.equals(head[i].Name))
+				w2 = i;
+		}
+		if(w1 == -1 || w2 == -1)
+			return "文本中不存在输入的某个词";
+		Dij D = new Dij(vertexNum);
+		D.dijkstra(w1,head);
+		if(D.dist[w2].d == INF){
+			ans += "没有路径";
+			return ans;
+		}
+		waypoint = new ArrayList<ArrayList<Integer>>();
+		waypoint = D.findpath(w1,w2);
+		for(int i=0;i<waypoint.size();i++){
+			//ans += "[";
+			for(int j=0;j<waypoint.get(i).size()-1;j++){
+				ans += head[waypoint.get(i).get(j)].Name;
+				ans += "->";
+			}
+			ans += head[waypoint.get(i).get(waypoint.get(i).size()-1)].Name;
+			ans += "  "+ "length: "+D.dist[w2].d+"\n";
+		}
+		return ans;
+	}
+	/**计算一个单词到其他之间的最短路径*/
+	public static String calcShortestPath_Oneword(String word){
+		int wd = -1;
+		String ans = "";
+		for(int i = 0;i<vertexNum;i++){
+			if(word.equals(head[i].Name))
+				wd = i;
+		}
+		if(wd == -1)
+			return "文本中不存在输入的词";
+		Dij D = new Dij(vertexNum);
+		D.dijkstra(wd,head);
+		for(int i =0;i<vertexNum;i++){
+			if(i==wd) continue;
+			ans += word+"==>"+head[i].Name+":\n";
+			ans += calcShortestPath(word,head[i].Name);
+			ans += "\n";
+		}
+		return ans;
+	}

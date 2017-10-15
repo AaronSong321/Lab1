@@ -1,9 +1,16 @@
 package com.aaron;
+<<<<<<< HEAD
+=======
+
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
 import java.util.Calendar;
 import java.util.Random;
 import com.aaron.ListDG.ENode;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
 public class GraphFunctions {
 	public static String queryBridgeWords(ListDG G,String src,String dst) {
 		StringBuilder result = new StringBuilder();
@@ -38,7 +45,11 @@ public class GraphFunctions {
 			}else if(countnum==1) {
 				return("The bridge word between "+src+" and "+dst+" is"+result.toString()+".");
 			}else {
+<<<<<<< HEAD
 				return("The bridge word between "+src+" and "+dst+" are"+result.toString()+".");				
+=======
+				return("The bridge word between "+src+" and "+dst+" are"+result.toString()+".");
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
 			}
 		}
 	}
@@ -49,13 +60,21 @@ public class GraphFunctions {
 		String s="we seasons the we joy";
 		System.out.println(generateNewText(g, s));
 	}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
 	public static String generateNewText(ListDG G, String passin) {
 		if(r==null) {
 			randomStart();
 		}
 		StringBuilder recreate=new StringBuilder();
+<<<<<<< HEAD
 		String[] divided=passin.split(" ");
+=======
+		String[] divided=passin.split("\\,| |\\-");
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
 		for(int i=0;i<divided.length-1;i++) {
 			if(!(G.hashTable.containsKey(divided[i]) && G.hashTable.containsKey(divided[i+1]))) {
 				if (i==0) {
@@ -140,21 +159,36 @@ public class GraphFunctions {
 			int[] nodechild=new int[G.mVexs.length];
 			int childnum=0;
 			int tmpplace=0;
+<<<<<<< HEAD
 			
+=======
+
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
 			int[] result=new int[G.length()];
 			randombegin(G);
 			result[0]=nowplace;
 			tmpplace=tmpplace+1;
+<<<<<<< HEAD
 			
 			boolean[][]visited=new boolean[G.mVexs.length][G.mVexs.length];
 			ENode tmpvisit=G.mVexs[nowplace].firstEdge;
 			
+=======
+
+			boolean[][]visited=new boolean[G.mVexs.length][G.mVexs.length];
+			ENode tmpvisit=G.mVexs[nowplace].firstEdge;
+
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
 			for(int i=0;i<G.mVexs.length;i++) {
 				for(int j=0;j<G.mVexs.length;j++) {
 					visited[i][j]=false;
 				}
 			}
+<<<<<<< HEAD
 			
+=======
+
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
 			while(endsign==false) {
 				if(tmpvisit==null) {
 					endsign=true;
@@ -176,7 +210,11 @@ public class GraphFunctions {
 					}
 				}
 			}
+<<<<<<< HEAD
 			
+=======
+
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
 			int[] res=new int[tmpplace];
 			System.out.println("Travel words in functions is:");
 			for(int i=0;i<tmpplace;i++) {
@@ -186,6 +224,7 @@ public class GraphFunctions {
 			System.out.println();
 			return res;
 		}
+<<<<<<< HEAD
 /*
 		public static int[] randomRun(ListDG G){
 			
@@ -250,6 +289,9 @@ public class GraphFunctions {
 
 */	
 	
+=======
+
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
 	public static int[] Dijkstra(ListDG G,String src,String dst) {
 		int[][] graph=new int[G.mVexs.length][G.mVexs.length];
 		int[][] store=new int[G.mVexs.length][G.mVexs.length];
@@ -267,6 +309,7 @@ public class GraphFunctions {
 				tmp=tmp.nextEdge;
 			}
 		}
+<<<<<<< HEAD
 		
 		int srcnum=G.hashTable.get(src);
 		int dstnum=G.hashTable.get(dst);
@@ -277,6 +320,18 @@ public class GraphFunctions {
 		
 		boolean[] finish=new boolean[G.mVexs.length];
 		int[] D=new int[G.mVexs.length];		
+=======
+
+		int srcnum=G.hashTable.get(src);
+		int dstnum=G.hashTable.get(dst);
+
+		int[] num=new int[G.mVexs.length];
+		int[] shortest=new int[G.mVexs.length];
+		int shortnum=0;
+
+		boolean[] finish=new boolean[G.mVexs.length];
+		int[] D=new int[G.mVexs.length];
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
 
 		for(int i=0;i<G.mVexs.length;i++) {
 			D[i]=graph[srcnum][i];
@@ -319,7 +374,11 @@ public class GraphFunctions {
 			store[v][num[v]++]=v;
 //			queue[v].insert(v);
 		}
+<<<<<<< HEAD
 		
+=======
+
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
 		int count=1;
 		int[] result=new int[shortnum+2];
 		result[0]=srcnum;
@@ -331,13 +390,21 @@ public class GraphFunctions {
 		//	System.out.print(shortest[i]+" ");
 		}
 		//System.out.print("\n");
+<<<<<<< HEAD
 /*
 		for(int i=0;i<result.length;i++) {
 			System.out.println(result[i]);
 		}	
 */
+=======
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
 		result[result.length-1] = D[dstnum];
 		return result;
 	}
 
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35

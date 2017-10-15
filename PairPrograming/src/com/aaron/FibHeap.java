@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
 package com.aaron;
 
 public class FibHeap {
@@ -192,9 +196,15 @@ public class FibHeap {
     private void cut(FibNode node, FibNode parent) {
         removeNode(node);
         renewDegree(parent, node.degree);
+<<<<<<< HEAD
         if (node == node.right) 
             parent.child = null;
         else 
+=======
+        if (node == node.right)
+            parent.child = null;
+        else
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
             parent.child = node.right;
         node.parent = null;
         node.left = node.right = node;
@@ -205,7 +215,11 @@ public class FibHeap {
     private void cascadingCut(FibNode node) {
         FibNode parent = node.parent;
         if (parent != null) {
+<<<<<<< HEAD
             if (node.marked == false) 
+=======
+            if (node.marked == false)
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
                 node.marked = true;
             else {
                 cut(node, parent);
@@ -215,7 +229,11 @@ public class FibHeap {
     }
 
     private void decrease(FibNode node, int key) {
+<<<<<<< HEAD
         if (min==null ||node==null) 
+=======
+        if (min==null ||node==null)
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
             return ;
         if (key > node.key) {
             System.out.printf("decrease failed: the new key(%d) is no smaller than current key(%d)\n", key, node.key);
@@ -232,7 +250,11 @@ public class FibHeap {
     }
 
     private void increase(FibNode node, int key) {
+<<<<<<< HEAD
         if (min==null ||node==null) 
+=======
+        if (min==null ||node==null)
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
             return ;
         if ( key <= node.key) {
             System.out.printf("increase failed: the new key(%d) is no greater than current key(%d)\n", key, node.key);
@@ -273,7 +295,11 @@ public class FibHeap {
         else
             System.out.printf("No need to update!!!\n");
     }
+<<<<<<< HEAD
       
+=======
+
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
     public void update(int oldkey, int newkey) {
         FibNode node;
         node = search(oldkey);
@@ -292,7 +318,11 @@ public class FibHeap {
                 p = t;
                 break;
             } else {
+<<<<<<< HEAD
                 if ((p = search(t.child, key)) != null) 
+=======
+                if ((p = search(t.child, key)) != null)
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
                     break;
             }
             t = t.right;
@@ -337,7 +367,11 @@ public class FibHeap {
             node.left = null;
         } while(node != start);
     }
+<<<<<<< HEAD
      
+=======
+
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
     public void destroy() {
         destroyNode(min);
     }
@@ -374,4 +408,8 @@ public class FibHeap {
         } while (p != min);
         System.out.printf("\n");
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35

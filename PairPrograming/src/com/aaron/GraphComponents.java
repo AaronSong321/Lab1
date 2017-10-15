@@ -48,7 +48,11 @@ public class GraphComponents {
 			}
 		}
 	}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
 	public void toDot(String s){
 		File dotFile;
 		FileWriter dotFileWriter;
@@ -58,7 +62,11 @@ public class GraphComponents {
 			if (!dotFile.exists()) dotFile.createNewFile();
 			dotFileWriter = new FileWriter(dotFile, false);
 			dotBufferedWriter = new BufferedWriter(dotFileWriter);
+<<<<<<< HEAD
 			
+=======
+
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
 			dotBufferedWriter.write("digraph G {\n");
 			dotBufferedWriter.write("size = \"4,4\";\n");
 			dotBufferedWriter.write("rankdir = LR;\n");
@@ -73,6 +81,7 @@ public class GraphComponents {
 			e.printStackTrace();
 		}
 	}
+<<<<<<< HEAD
 	/*
 	public void show(String runPath,String dotPath,String nameGraph){
 		GraphViz gv = new GraphViz(runPath, dotPath, nameGraph);
@@ -252,3 +261,9 @@ public class GraphComponents {
 	}
 	*/
 }
+=======
+
+}
+
+
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35

@@ -24,7 +24,11 @@ public class ListDG {
     public VNode[] mVexs;
     public Hashtable<String,Integer> hashTable;
     private final int MAX_WORDS = 100;
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
     public ListDG(File file) throws FileNotFoundException{
     	BufferedReader reader = null;
     	try{
@@ -92,7 +96,11 @@ public class ListDG {
 	    			linkLast(tokens[i], newNode);
     			}
     		}
+<<<<<<< HEAD
     		mEdgNum -= repeatEdge;   
+=======
+    		mEdgNum -= repeatEdge;
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
     		hashTable = new Hashtable<String, Integer>();
     		for(int i=0;i<mVexs.length;i++)
     			hashTable.put(mVexs[i].data, i);
@@ -106,7 +114,11 @@ public class ListDG {
     				tempEdge = tempEdge.nextEdge;
     			}
     			System.out.println();
+<<<<<<< HEAD
     		}	
+=======
+    		}
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
     		*/
     	} catch(IOException e){
     		e.printStackTrace();
@@ -120,7 +132,11 @@ public class ListDG {
     		}
     	}
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
     private void linkLast(int startv, ENode node){
     	if (mVexs[startv].firstEdge == null) mVexs[startv].firstEdge = node;
     	else{
@@ -129,6 +145,7 @@ public class ListDG {
     		end.nextEdge = node;
     	}
     }
+<<<<<<< HEAD
 /*	
     public void dijkstra(int vs, int[] prev, int[] dist) {
     	FibHeap H = new FibHeap();
@@ -167,6 +184,17 @@ public class ListDG {
 		return mEdgNum;
 	}
 	
+=======
+
+	public int length() {
+		return mVexs.length;
+	}
+
+	public int edgeNum(){
+		return mEdgNum;
+	}
+
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
 	public void toDot(){
 		File dotFile;
 		FileWriter dotFileWriter;
@@ -176,7 +204,11 @@ public class ListDG {
 			if (!dotFile.exists()) dotFile.createNewFile();
 			dotFileWriter = new FileWriter(dotFile, false);
 			dotBufferedWriter = new BufferedWriter(dotFileWriter);
+<<<<<<< HEAD
 			
+=======
+
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
 			dotBufferedWriter.write("digraph G {\n");
 			dotBufferedWriter.write("size = \"4,4\";\n");
 			dotBufferedWriter.write("rankdir = LR;\n");
@@ -197,4 +229,9 @@ public class ListDG {
 			e.printStackTrace();
 		}
 	}
+<<<<<<< HEAD
 }
+=======
+}
+
+>>>>>>> a053be062e65bb40b1ff71864afa4aff06bc2b35
