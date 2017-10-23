@@ -1,0 +1,1038 @@
+src/com/aaron/FibHeap.java:1:	Possible God class (WMC=84, ATFD=112, TCC=0.2608695652173913)
+src/com/aaron/FibHeap.java:3:	The class 'FibHeap' has a Cyclomatic Complexity of 3 (Highest = 10).
+src/com/aaron/FibHeap.java:3:	This class has too many methods, consider refactoring it.
+src/com/aaron/FibHeap.java:3:	headerCommentRequirement Required
+src/com/aaron/FibHeap.java:4:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/FibHeap.java:4:	fieldCommentRequirement Required
+src/com/aaron/FibHeap.java:5:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/FibHeap.java:5:	fieldCommentRequirement Required
+src/com/aaron/FibHeap.java:7:	headerCommentRequirement Required
+src/com/aaron/FibHeap.java:8:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/FibHeap.java:8:	To avoid mistakes add a comment at the beginning of the name field if you want a default access modifier
+src/com/aaron/FibHeap.java:8:	Use explicit scoping instead of the default package private level
+src/com/aaron/FibHeap.java:8:	fieldCommentRequirement Required
+src/com/aaron/FibHeap.java:9:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/FibHeap.java:9:	To avoid mistakes add a comment at the beginning of the key field if you want a default access modifier
+src/com/aaron/FibHeap.java:9:	Use explicit scoping instead of the default package private level
+src/com/aaron/FibHeap.java:9:	fieldCommentRequirement Required
+src/com/aaron/FibHeap.java:10:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/FibHeap.java:10:	To avoid mistakes add a comment at the beginning of the degree field if you want a default access modifier
+src/com/aaron/FibHeap.java:10:	Use explicit scoping instead of the default package private level
+src/com/aaron/FibHeap.java:10:	fieldCommentRequirement Required
+src/com/aaron/FibHeap.java:11:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/FibHeap.java:11:	To avoid mistakes add a comment at the beginning of the left field if you want a default access modifier
+src/com/aaron/FibHeap.java:11:	Use explicit scoping instead of the default package private level
+src/com/aaron/FibHeap.java:11:	fieldCommentRequirement Required
+src/com/aaron/FibHeap.java:12:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/FibHeap.java:12:	To avoid mistakes add a comment at the beginning of the right field if you want a default access modifier
+src/com/aaron/FibHeap.java:12:	Use explicit scoping instead of the default package private level
+src/com/aaron/FibHeap.java:12:	fieldCommentRequirement Required
+src/com/aaron/FibHeap.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/FibHeap.java:13:	To avoid mistakes add a comment at the beginning of the child field if you want a default access modifier
+src/com/aaron/FibHeap.java:13:	Use explicit scoping instead of the default package private level
+src/com/aaron/FibHeap.java:13:	fieldCommentRequirement Required
+src/com/aaron/FibHeap.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/FibHeap.java:14:	To avoid mistakes add a comment at the beginning of the parent field if you want a default access modifier
+src/com/aaron/FibHeap.java:14:	Use explicit scoping instead of the default package private level
+src/com/aaron/FibHeap.java:14:	fieldCommentRequirement Required
+src/com/aaron/FibHeap.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/FibHeap.java:15:	To avoid mistakes add a comment at the beginning of the marked field if you want a default access modifier
+src/com/aaron/FibHeap.java:15:	Use explicit scoping instead of the default package private level
+src/com/aaron/FibHeap.java:15:	fieldCommentRequirement Required
+src/com/aaron/FibHeap.java:16:	Parameter 'key' is not assigned and could be declared final
+src/com/aaron/FibHeap.java:16:	Parameter 'name' is not assigned and could be declared final
+src/com/aaron/FibHeap.java:16:	publicMethodCommentRequirement Required
+src/com/aaron/FibHeap.java:23:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/com/aaron/FibHeap.java:24:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/com/aaron/FibHeap.java:28:	publicMethodCommentRequirement Required
+src/com/aaron/FibHeap.java:30:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/com/aaron/FibHeap.java:33:	Parameter 'node' is not assigned and could be declared final
+src/com/aaron/FibHeap.java:38:	Parameter 'node' is not assigned and could be declared final
+src/com/aaron/FibHeap.java:38:	Parameter 'root' is not assigned and could be declared final
+src/com/aaron/FibHeap.java:45:	Parameter 'node' is not assigned and could be declared final
+src/com/aaron/FibHeap.java:47:	Avoid using if...else statements without curly braces
+src/com/aaron/FibHeap.java:50:	Avoid using if statements without curly braces
+src/com/aaron/FibHeap.java:56:	Parameter 'key' is not assigned and could be declared final
+src/com/aaron/FibHeap.java:56:	Parameter 'name' is not assigned and could be declared final
+src/com/aaron/FibHeap.java:56:	publicMethodCommentRequirement Required
+src/com/aaron/FibHeap.java:63:	Avoid variables with short names like a
+src/com/aaron/FibHeap.java:63:	Avoid variables with short names like b
+src/com/aaron/FibHeap.java:63:	Parameter 'a' is not assigned and could be declared final
+src/com/aaron/FibHeap.java:63:	Parameter 'b' is not assigned and could be declared final
+src/com/aaron/FibHeap.java:72:	Avoid reassigning parameters such as 'other'
+src/com/aaron/FibHeap.java:72:	Avoid reassigning parameters such as 'other'
+src/com/aaron/FibHeap.java:72:	Avoid reassigning parameters such as 'other'
+src/com/aaron/FibHeap.java:72:	publicMethodCommentRequirement Required
+src/com/aaron/FibHeap.java:73:	Avoid using if statements without curly braces
+src/com/aaron/FibHeap.java:75:	Useless parentheses.
+src/com/aaron/FibHeap.java:78:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/com/aaron/FibHeap.java:79:	Useless parentheses.
+src/com/aaron/FibHeap.java:80:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/com/aaron/FibHeap.java:82:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/FibHeap.java:83:	Avoid using if statements without curly braces
+src/com/aaron/FibHeap.java:86:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/com/aaron/FibHeap.java:91:	Avoid variables with short names like p
+src/com/aaron/FibHeap.java:91:	Local variable 'p' could be declared final
+src/com/aaron/FibHeap.java:93:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/com/aaron/FibHeap.java:93:	Avoid using if...else statements without curly braces
+src/com/aaron/FibHeap.java:102:	Parameter 'node' is not assigned and could be declared final
+src/com/aaron/FibHeap.java:105:	Avoid using if...else statements without curly braces
+src/com/aaron/FibHeap.java:107:	Avoid using if...else statements without curly braces
+src/com/aaron/FibHeap.java:114:	Local variable 'maxDegree' could be declared final
+src/com/aaron/FibHeap.java:115:	Avoid variables with short names like D
+src/com/aaron/FibHeap.java:115:	Local variable 'D' could be declared final
+src/com/aaron/FibHeap.java:115:	Variables should start with a lowercase character, 'D' starts with uppercase character.
+src/com/aaron/FibHeap.java:116:	Found 'DD'-anomaly for variable 'cons' (lines '116'-'118').
+src/com/aaron/FibHeap.java:116:	Found 'DU'-anomaly for variable 'cons' (lines '116'-'147').
+src/com/aaron/FibHeap.java:117:	Avoid using for statements without curly braces
+src/com/aaron/FibHeap.java:118:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/com/aaron/FibHeap.java:118:	Found 'DD'-anomaly for variable 'cons' (lines '118'-'118').
+src/com/aaron/FibHeap.java:118:	Found 'DU'-anomaly for variable 'cons' (lines '118'-'147').
+src/com/aaron/FibHeap.java:120:	Avoid variables with short names like x
+src/com/aaron/FibHeap.java:121:	Avoid variables with short names like d
+src/com/aaron/FibHeap.java:123:	Avoid variables with short names like y
+src/com/aaron/FibHeap.java:125:	Local variable 'tmp' could be declared final
+src/com/aaron/FibHeap.java:130:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/com/aaron/FibHeap.java:133:	Found 'DU'-anomaly for variable 'cons' (lines '133'-'147').
+src/com/aaron/FibHeap.java:135:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/com/aaron/FibHeap.java:139:	Avoid using if...else statements without curly braces
+src/com/aaron/FibHeap.java:141:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/FibHeap.java:142:	Avoid using if statements without curly braces
+src/com/aaron/FibHeap.java:149:	publicMethodCommentRequirement Required
+src/com/aaron/FibHeap.java:150:	Avoid using if statements without curly braces
+src/com/aaron/FibHeap.java:152:	Avoid variables with short names like m
+src/com/aaron/FibHeap.java:154:	Local variable 'child' could be declared final
+src/com/aaron/FibHeap.java:157:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/com/aaron/FibHeap.java:157:	Avoid using if...else statements without curly braces
+src/com/aaron/FibHeap.java:159:	Avoid using if...else statements without curly braces
+src/com/aaron/FibHeap.java:161:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/com/aaron/FibHeap.java:165:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/com/aaron/FibHeap.java:165:	Avoid using if...else statements without curly braces
+src/com/aaron/FibHeap.java:171:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/com/aaron/FibHeap.java:171:	Found 'DU'-anomaly for variable 'm' (lines '171'-'172').
+src/com/aaron/FibHeap.java:174:	Method names should not contain underscores
+src/com/aaron/FibHeap.java:174:	publicMethodCommentRequirement Required
+src/com/aaron/FibHeap.java:175:	Avoid using if statements without curly braces
+src/com/aaron/FibHeap.java:176:	A method should have only one exit point, and that should be the last statement in the method
+src/com/aaron/FibHeap.java:180:	Method names should not contain underscores
+src/com/aaron/FibHeap.java:180:	publicMethodCommentRequirement Required
+src/com/aaron/FibHeap.java:181:	Avoid using if statements without curly braces
+src/com/aaron/FibHeap.java:182:	A method should have only one exit point, and that should be the last statement in the method
+src/com/aaron/FibHeap.java:186:	Parameter 'degree' is not assigned and could be declared final
+src/com/aaron/FibHeap.java:188:	Avoid using if statements without curly braces
+src/com/aaron/FibHeap.java:192:	Parameter 'node' is not assigned and could be declared final
+src/com/aaron/FibHeap.java:192:	Parameter 'parent' is not assigned and could be declared final
+src/com/aaron/FibHeap.java:196:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/com/aaron/FibHeap.java:196:	Avoid using if...else statements without curly braces
+src/com/aaron/FibHeap.java:198:	Avoid using if...else statements without curly braces
+src/com/aaron/FibHeap.java:199:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/com/aaron/FibHeap.java:205:	Parameter 'node' is not assigned and could be declared final
+src/com/aaron/FibHeap.java:206:	Local variable 'parent' could be declared final
+src/com/aaron/FibHeap.java:208:	Avoid unnecessary comparisons in boolean expressions
+src/com/aaron/FibHeap.java:209:	Avoid using if...else statements without curly braces
+src/com/aaron/FibHeap.java:217:	Parameter 'key' is not assigned and could be declared final
+src/com/aaron/FibHeap.java:217:	Parameter 'node' is not assigned and could be declared final
+src/com/aaron/FibHeap.java:218:	Avoid using if statements without curly braces
+src/com/aaron/FibHeap.java:219:	A method should have only one exit point, and that should be the last statement in the method
+src/com/aaron/FibHeap.java:221:	System.out.printf is used
+src/com/aaron/FibHeap.java:224:	Local variable 'parent' could be declared final
+src/com/aaron/FibHeap.java:226:	Useless parentheses.
+src/com/aaron/FibHeap.java:230:	Avoid using if statements without curly braces
+src/com/aaron/FibHeap.java:234:	Parameter 'key' is not assigned and could be declared final
+src/com/aaron/FibHeap.java:234:	Parameter 'node' is not assigned and could be declared final
+src/com/aaron/FibHeap.java:234:	The method 'increase' has a Cyclomatic Complexity of 10.
+src/com/aaron/FibHeap.java:235:	Avoid using if statements without curly braces
+src/com/aaron/FibHeap.java:236:	A method should have only one exit point, and that should be the last statement in the method
+src/com/aaron/FibHeap.java:238:	System.out.printf is used
+src/com/aaron/FibHeap.java:242:	Local variable 'child' could be declared final
+src/com/aaron/FibHeap.java:245:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/com/aaron/FibHeap.java:245:	Avoid using if...else statements without curly braces
+src/com/aaron/FibHeap.java:247:	Avoid using if...else statements without curly braces
+src/com/aaron/FibHeap.java:249:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/com/aaron/FibHeap.java:254:	Local variable 'parent' could be declared final
+src/com/aaron/FibHeap.java:255:	Avoid if (x != y) ..; else ..;
+src/com/aaron/FibHeap.java:258:	Use equals() to compare object references.
+src/com/aaron/FibHeap.java:260:	Use equals() to compare object references.
+src/com/aaron/FibHeap.java:261:	Avoid using if statements without curly braces
+src/com/aaron/FibHeap.java:268:	Parameter 'key' is not assigned and could be declared final
+src/com/aaron/FibHeap.java:268:	Parameter 'node' is not assigned and could be declared final
+src/com/aaron/FibHeap.java:270:	Avoid using if...else statements without curly braces
+src/com/aaron/FibHeap.java:272:	Avoid using if...else statements without curly braces
+src/com/aaron/FibHeap.java:274:	Avoid using if...else statements without curly braces
+src/com/aaron/FibHeap.java:274:	System.out.printf is used
+src/com/aaron/FibHeap.java:277:	Parameter 'newkey' is not assigned and could be declared final
+src/com/aaron/FibHeap.java:277:	Parameter 'oldkey' is not assigned and could be declared final
+src/com/aaron/FibHeap.java:277:	publicMethodCommentRequirement Required
+src/com/aaron/FibHeap.java:280:	Avoid using if statements without curly braces
+src/com/aaron/FibHeap.java:284:	Parameter 'key' is not assigned and could be declared final
+src/com/aaron/FibHeap.java:284:	Parameter 'root' is not assigned and could be declared final
+src/com/aaron/FibHeap.java:285:	Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/com/aaron/FibHeap.java:285:	Avoid variables with short names like t
+src/com/aaron/FibHeap.java:285:	Found 'DU'-anomaly for variable 't' (lines '285'-'302').
+src/com/aaron/FibHeap.java:286:	Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/com/aaron/FibHeap.java:286:	Avoid variables with short names like p
+src/com/aaron/FibHeap.java:286:	Found 'DD'-anomaly for variable 'p' (lines '286'-'292').
+src/com/aaron/FibHeap.java:286:	Found 'DD'-anomaly for variable 'p' (lines '286'-'295').
+src/com/aaron/FibHeap.java:286:	Found 'DU'-anomaly for variable 'p' (lines '286'-'302').
+src/com/aaron/FibHeap.java:287:	Avoid using if statements without curly braces
+src/com/aaron/FibHeap.java:288:	A method should have only one exit point, and that should be the last statement in the method
+src/com/aaron/FibHeap.java:292:	Found 'DU'-anomaly for variable 'p' (lines '292'-'302').
+src/com/aaron/FibHeap.java:295:	Avoid assignments in operands
+src/com/aaron/FibHeap.java:295:	Avoid using if statements without curly braces
+src/com/aaron/FibHeap.java:295:	Found 'DD'-anomaly for variable 'p' (lines '295'-'292').
+src/com/aaron/FibHeap.java:295:	Found 'DD'-anomaly for variable 'p' (lines '295'-'295').
+src/com/aaron/FibHeap.java:295:	Found 'DU'-anomaly for variable 'p' (lines '295'-'302').
+src/com/aaron/FibHeap.java:299:	Use equals() to compare object references.
+src/com/aaron/FibHeap.java:304:	Parameter 'key' is not assigned and could be declared final
+src/com/aaron/FibHeap.java:305:	Avoid using if statements without curly braces
+src/com/aaron/FibHeap.java:306:	A method should have only one exit point, and that should be the last statement in the method
+src/com/aaron/FibHeap.java:311:	Parameter 'key' is not assigned and could be declared final
+src/com/aaron/FibHeap.java:311:	publicMethodCommentRequirement Required
+src/com/aaron/FibHeap.java:312:	Avoid if (x != y) ..; else ..;
+src/com/aaron/FibHeap.java:315:	Parameter 'node' is not assigned and could be declared final
+src/com/aaron/FibHeap.java:316:	Avoid variables with short names like m
+src/com/aaron/FibHeap.java:316:	Local variable 'm' could be declared final
+src/com/aaron/FibHeap.java:321:	Parameter 'key' is not assigned and could be declared final
+src/com/aaron/FibHeap.java:321:	publicMethodCommentRequirement Required
+src/com/aaron/FibHeap.java:322:	Avoid using if statements without curly braces
+src/com/aaron/FibHeap.java:323:	A method should have only one exit point, and that should be the last statement in the method
+src/com/aaron/FibHeap.java:324:	Local variable 'node' could be declared final
+src/com/aaron/FibHeap.java:325:	Avoid using if statements without curly braces
+src/com/aaron/FibHeap.java:330:	Avoid reassigning parameters such as 'node'
+src/com/aaron/FibHeap.java:331:	Avoid using if statements without curly braces
+src/com/aaron/FibHeap.java:333:	Local variable 'start' could be declared final
+src/com/aaron/FibHeap.java:337:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/com/aaron/FibHeap.java:338:	Use equals() to compare object references.
+src/com/aaron/FibHeap.java:341:	publicMethodCommentRequirement Required
+src/com/aaron/FibHeap.java:345:	Avoid reassigning parameters such as 'direction'
+src/com/aaron/FibHeap.java:345:	Avoid reassigning parameters such as 'node'
+src/com/aaron/FibHeap.java:345:	Avoid reassigning parameters such as 'prev'
+src/com/aaron/FibHeap.java:346:	Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/com/aaron/FibHeap.java:346:	Found 'DU'-anomaly for variable 'start' (lines '346'-'361').
+src/com/aaron/FibHeap.java:346:	Local variable 'start' could be declared final
+src/com/aaron/FibHeap.java:347:	Avoid using if statements without curly braces
+src/com/aaron/FibHeap.java:350:	Avoid using Literals in Conditional Statements
+src/com/aaron/FibHeap.java:351:	Avoid using if...else statements without curly braces
+src/com/aaron/FibHeap.java:351:	System.out.printf is used
+src/com/aaron/FibHeap.java:353:	Avoid using if...else statements without curly braces
+src/com/aaron/FibHeap.java:353:	System.out.printf is used
+src/com/aaron/FibHeap.java:355:	Avoid using if statements without curly braces
+src/com/aaron/FibHeap.java:360:	Use equals() to compare object references.
+src/com/aaron/FibHeap.java:363:	publicMethodCommentRequirement Required
+src/com/aaron/FibHeap.java:364:	Avoid using if statements without curly braces
+src/com/aaron/FibHeap.java:366:	Avoid variables with short names like i
+src/com/aaron/FibHeap.java:366:	Found 'DD'-anomaly for variable 'i' (lines '366'-'370').
+src/com/aaron/FibHeap.java:367:	Avoid variables with short names like p
+src/com/aaron/FibHeap.java:368:	System.out.printf is used
+src/com/aaron/FibHeap.java:371:	System.out.printf is used
+src/com/aaron/FibHeap.java:374:	Use equals() to compare object references.
+src/com/aaron/FibHeap.java:375:	System.out.printf is used
+src/com/aaron/GraphComponents.java:8:	headerCommentRequirement Required
+src/com/aaron/GraphComponents.java:9:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/GraphComponents.java:9:	fieldCommentRequirement Required
+src/com/aaron/GraphComponents.java:10:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/GraphComponents.java:10:	fieldCommentRequirement Required
+src/com/aaron/GraphComponents.java:11:	headerCommentRequirement Required
+src/com/aaron/GraphComponents.java:12:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/GraphComponents.java:12:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/GraphComponents.java:12:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/GraphComponents.java:12:	To avoid mistakes add a comment at the beginning of the name field if you want a default access modifier
+src/com/aaron/GraphComponents.java:12:	Use explicit scoping instead of the default package private level
+src/com/aaron/GraphComponents.java:12:	fieldCommentRequirement Required
+src/com/aaron/GraphComponents.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/GraphComponents.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/GraphComponents.java:13:	To avoid mistakes add a comment at the beginning of the width field if you want a default access modifier
+src/com/aaron/GraphComponents.java:13:	Use explicit scoping instead of the default package private level
+src/com/aaron/GraphComponents.java:13:	fieldCommentRequirement Required
+src/com/aaron/GraphComponents.java:14:	Parameter 'name' is not assigned and could be declared final
+src/com/aaron/GraphComponents.java:14:	publicMethodCommentRequirement Required
+src/com/aaron/GraphComponents.java:17:	publicMethodCommentRequirement Required
+src/com/aaron/GraphComponents.java:20:	Parameter 'color' is not assigned and could be declared final
+src/com/aaron/GraphComponents.java:20:	publicMethodCommentRequirement Required
+src/com/aaron/GraphComponents.java:24:	headerCommentRequirement Required
+src/com/aaron/GraphComponents.java:25:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/GraphComponents.java:25:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/GraphComponents.java:25:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/GraphComponents.java:25:	To avoid mistakes add a comment at the beginning of the src field if you want a default access modifier
+src/com/aaron/GraphComponents.java:25:	Use explicit scoping instead of the default package private level
+src/com/aaron/GraphComponents.java:25:	fieldCommentRequirement Required
+src/com/aaron/GraphComponents.java:26:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/GraphComponents.java:26:	To avoid mistakes add a comment at the beginning of the label field if you want a default access modifier
+src/com/aaron/GraphComponents.java:26:	Use explicit scoping instead of the default package private level
+src/com/aaron/GraphComponents.java:26:	fieldCommentRequirement Required
+src/com/aaron/GraphComponents.java:27:	Parameter 'dst' is not assigned and could be declared final
+src/com/aaron/GraphComponents.java:27:	Parameter 'src' is not assigned and could be declared final
+src/com/aaron/GraphComponents.java:27:	Parameter 'weight' is not assigned and could be declared final
+src/com/aaron/GraphComponents.java:27:	publicMethodCommentRequirement Required
+src/com/aaron/GraphComponents.java:30:	publicMethodCommentRequirement Required
+src/com/aaron/GraphComponents.java:33:	Parameter 'color' is not assigned and could be declared final
+src/com/aaron/GraphComponents.java:33:	publicMethodCommentRequirement Required
+src/com/aaron/GraphComponents.java:37:	Avoid variables with short names like g
+src/com/aaron/GraphComponents.java:37:	Parameter 'g' is not assigned and could be declared final
+src/com/aaron/GraphComponents.java:37:	publicMethodCommentRequirement Required
+src/com/aaron/GraphComponents.java:40:	Avoid instantiating new objects inside loops
+src/com/aaron/GraphComponents.java:40:	Avoid using for statements without curly braces
+src/com/aaron/GraphComponents.java:46:	Avoid instantiating new objects inside loops
+src/com/aaron/GraphComponents.java:52:	Avoid variables with short names like s
+src/com/aaron/GraphComponents.java:52:	Parameter 's' is not assigned and could be declared final
+src/com/aaron/GraphComponents.java:52:	publicMethodCommentRequirement Required
+src/com/aaron/GraphComponents.java:58:	Avoid using if statements without curly braces
+src/com/aaron/GraphComponents.java:65:	Avoid using for statements without curly braces
+src/com/aaron/GraphComponents.java:66:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/GraphComponents.java:66:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/GraphComponents.java:66:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/GraphComponents.java:66:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/GraphComponents.java:67:	Avoid using for statements without curly braces
+src/com/aaron/GraphComponents.java:68:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/GraphComponents.java:68:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/GraphComponents.java:68:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/GraphComponents.java:68:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/GraphComponents.java:73:	Avoid printStackTrace(); use a logger call instead.
+src/com/aaron/GraphComponents.java:76:	Comment is too large: Too many lines
+src/com/aaron/GraphFunctions.java:1:	Possible God class (WMC=55, ATFD=48, TCC=0.14285714285714285)
+src/com/aaron/GraphFunctions.java:7:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/com/aaron/GraphFunctions.java:7:	The class 'GraphFunctions' has a Cyclomatic Complexity of 7 (Highest = 18).
+src/com/aaron/GraphFunctions.java:7:	The class 'GraphFunctions' has a Modified Cyclomatic Complexity of 6 (Highest = 14).
+src/com/aaron/GraphFunctions.java:7:	The class 'GraphFunctions' has a Standard Cyclomatic Complexity of 6 (Highest = 14).
+src/com/aaron/GraphFunctions.java:7:	headerCommentRequirement Required
+src/com/aaron/GraphFunctions.java:8:	Avoid variables with short names like G
+src/com/aaron/GraphFunctions.java:8:	Parameter 'G' is not assigned and could be declared final
+src/com/aaron/GraphFunctions.java:8:	Parameter 'dst' is not assigned and could be declared final
+src/com/aaron/GraphFunctions.java:8:	Parameter 'src' is not assigned and could be declared final
+src/com/aaron/GraphFunctions.java:8:	The method 'queryBridgeWords' has a Cyclomatic Complexity of 11.
+src/com/aaron/GraphFunctions.java:8:	The method 'queryBridgeWords' has a Modified Cyclomatic Complexity of 10.
+src/com/aaron/GraphFunctions.java:8:	The method 'queryBridgeWords' has a Standard Cyclomatic Complexity of 10.
+src/com/aaron/GraphFunctions.java:8:	Variables should start with a lowercase character, 'G' starts with uppercase character.
+src/com/aaron/GraphFunctions.java:8:	publicMethodCommentRequirement Required
+src/com/aaron/GraphFunctions.java:9:	Found 'DU'-anomaly for variable 'result' (lines '9'-'44').
+src/com/aaron/GraphFunctions.java:9:	Local variable 'result' could be declared final
+src/com/aaron/GraphFunctions.java:10:	Found 'DU'-anomaly for variable 'countnum' (lines '10'-'44').
+src/com/aaron/GraphFunctions.java:11:	Avoid if (x != y) ..; else ..;
+src/com/aaron/GraphFunctions.java:11:	Potential violation of Law of Demeter (static property access)
+src/com/aaron/GraphFunctions.java:11:	Potential violation of Law of Demeter (static property access)
+src/com/aaron/GraphFunctions.java:12:	A method should have only one exit point, and that should be the last statement in the method
+src/com/aaron/GraphFunctions.java:13:	Avoid if (x != y) ..; else ..;
+src/com/aaron/GraphFunctions.java:13:	Potential violation of Law of Demeter (static property access)
+src/com/aaron/GraphFunctions.java:14:	A method should have only one exit point, and that should be the last statement in the method
+src/com/aaron/GraphFunctions.java:15:	Avoid if (x != y) ..; else ..;
+src/com/aaron/GraphFunctions.java:15:	Potential violation of Law of Demeter (static property access)
+src/com/aaron/GraphFunctions.java:16:	A method should have only one exit point, and that should be the last statement in the method
+src/com/aaron/GraphFunctions.java:18:	Avoid variables with short names like u
+src/com/aaron/GraphFunctions.java:18:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/GraphFunctions.java:18:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/GraphFunctions.java:18:	Potential violation of Law of Demeter (static property access)
+src/com/aaron/GraphFunctions.java:20:	Avoid variables with short names like v
+src/com/aaron/GraphFunctions.java:22:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/GraphFunctions.java:22:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/GraphFunctions.java:22:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/GraphFunctions.java:24:	Avoid appending characters as strings in StringBuffer.append.
+src/com/aaron/GraphFunctions.java:37:	A method should have only one exit point, and that should be the last statement in the method
+src/com/aaron/GraphFunctions.java:38:	Avoid using Literals in Conditional Statements
+src/com/aaron/GraphFunctions.java:39:	A method should have only one exit point, and that should be the last statement in the method
+src/com/aaron/GraphFunctions.java:46:	Avoid variables with short names like g
+src/com/aaron/GraphFunctions.java:46:	Parameter 'g' is not assigned and could be declared final
+src/com/aaron/GraphFunctions.java:46:	publicMethodCommentRequirement Required
+src/com/aaron/GraphFunctions.java:49:	Avoid variables with short names like s
+src/com/aaron/GraphFunctions.java:49:	Local variable 's' could be declared final
+src/com/aaron/GraphFunctions.java:50:	System.out.println is used
+src/com/aaron/GraphFunctions.java:53:	Avoid variables with short names like G
+src/com/aaron/GraphFunctions.java:53:	Parameter 'G' is not assigned and could be declared final
+src/com/aaron/GraphFunctions.java:53:	Parameter 'passin' is not assigned and could be declared final
+src/com/aaron/GraphFunctions.java:53:	The method 'generateNewText' has a Cyclomatic Complexity of 14.
+src/com/aaron/GraphFunctions.java:53:	The method 'generateNewText' has a Modified Cyclomatic Complexity of 13.
+src/com/aaron/GraphFunctions.java:53:	The method 'generateNewText' has a Standard Cyclomatic Complexity of 13.
+src/com/aaron/GraphFunctions.java:53:	Variables should start with a lowercase character, 'G' starts with uppercase character.
+src/com/aaron/GraphFunctions.java:53:	publicMethodCommentRequirement Required
+src/com/aaron/GraphFunctions.java:57:	Local variable 'recreate' could be declared final
+src/com/aaron/GraphFunctions.java:58:	Local variable 'divided' could be declared final
+src/com/aaron/GraphFunctions.java:60:	Avoid if (x != y) ..; else ..;
+src/com/aaron/GraphFunctions.java:60:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/GraphFunctions.java:60:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/GraphFunctions.java:60:	Potential violation of Law of Demeter (static property access)
+src/com/aaron/GraphFunctions.java:60:	Potential violation of Law of Demeter (static property access)
+src/com/aaron/GraphFunctions.java:63:	Avoid appending characters as strings in StringBuffer.append.
+src/com/aaron/GraphFunctions.java:66:	Avoid appending characters as strings in StringBuffer.append.
+src/com/aaron/GraphFunctions.java:70:	Avoid instantiating new objects inside loops
+src/com/aaron/GraphFunctions.java:70:	Local variable 'words' could be declared final
+src/com/aaron/GraphFunctions.java:71:	Found 'DD'-anomaly for variable 'numcount' (lines '71'-'79').
+src/com/aaron/GraphFunctions.java:72:	Avoid variables with short names like u
+src/com/aaron/GraphFunctions.java:72:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/GraphFunctions.java:72:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/GraphFunctions.java:72:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/GraphFunctions.java:72:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/GraphFunctions.java:72:	Potential violation of Law of Demeter (static property access)
+src/com/aaron/GraphFunctions.java:74:	Avoid variables with short names like v
+src/com/aaron/GraphFunctions.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/GraphFunctions.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/GraphFunctions.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/GraphFunctions.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/GraphFunctions.java:78:	Avoid appending characters as strings in StringBuffer.append.
+src/com/aaron/GraphFunctions.java:85:	Found 'DD'-anomaly for variable 'builder' (lines '85'-'85').
+src/com/aaron/GraphFunctions.java:85:	Found 'DU'-anomaly for variable 'builder' (lines '85'-'119').
+src/com/aaron/GraphFunctions.java:85:	Local variable 'builder' could be declared final
+src/com/aaron/GraphFunctions.java:88:	Avoid using Literals in Conditional Statements
+src/com/aaron/GraphFunctions.java:90:	Avoid appending characters as strings in StringBuffer.append.
+src/com/aaron/GraphFunctions.java:94:	Avoid appending characters as strings in StringBuffer.append.
+src/com/aaron/GraphFunctions.java:100:	Avoid appending characters as strings in StringBuffer.append.
+src/com/aaron/GraphFunctions.java:104:	Avoid using Literals in Conditional Statements
+src/com/aaron/GraphFunctions.java:105:	Avoid appending characters as strings in StringBuffer.append.
+src/com/aaron/GraphFunctions.java:108:	Avoid appending characters as strings in StringBuffer.append.
+src/com/aaron/GraphFunctions.java:109:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/GraphFunctions.java:112:	Avoid appending characters as strings in StringBuffer.append.
+src/com/aaron/GraphFunctions.java:122:	Avoid variables with short names like r
+src/com/aaron/GraphFunctions.java:122:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/GraphFunctions.java:122:	To avoid mistakes add a comment at the beginning of the r field if you want a default access modifier
+src/com/aaron/GraphFunctions.java:122:	Use explicit scoping instead of the default package private level
+src/com/aaron/GraphFunctions.java:122:	fieldCommentRequirement Required
+src/com/aaron/GraphFunctions.java:123:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/GraphFunctions.java:123:	To avoid mistakes add a comment at the beginning of the nowplace field if you want a default access modifier
+src/com/aaron/GraphFunctions.java:123:	Use explicit scoping instead of the default package private level
+src/com/aaron/GraphFunctions.java:123:	fieldCommentRequirement Required
+src/com/aaron/GraphFunctions.java:125:	Avoid variables with short names like c
+src/com/aaron/GraphFunctions.java:125:	Local variable 'c' could be declared final
+src/com/aaron/GraphFunctions.java:126:	Potential violation of Law of Demeter (object not created locally)
+src/com/aaron/GraphFunctions.java:128:	Avoid variables with short names like x
+src/com/aaron/GraphFunctions.java:128:	Parameter 'x' is not assigned and could be declared final
+src/com/aaron/GraphFunctions.java:131:	Avoid variables with short names like G
+src/com/aaron/GraphFunctions.java:131:	Parameter 'G' is not assigned and could be declared final
+src/com/aaron/GraphFunctions.java:131:	Variables should start with a lowercase character, 'G' starts with uppercase character.
+src/com/aaron/GraphFunctions.java:131:	publicMethodCommentRequirement Required
+src/com/aaron/GraphFunctions.java:138:	Avoid variables with short names like G
+src/com/aaron/GraphFunctions.java:138:	Parameter 'G' is not assigned and could be declared final
+src/com/aaron/GraphFunctions.java:138:	Variables should start with a lowercase character, 'G' starts with uppercase character.
+src/com/aaron/GraphFunctions.java:138:	publicMethodCommentRequirement Required
+src/com/aaron/GraphFunctions.java:140:	Found 'DD'-anomaly for variable 'nodechild' (lines '140'-'164').
+src/com/aaron/GraphFunctions.java:140:	Found 'DU'-anomaly for variable 'nodechild' (lines '140'-'188').
+src/com/aaron/GraphFunctions.java:141:	Found 'DD'-anomaly for variable 'childnum' (lines '141'-'162').
+src/com/aaron/GraphFunctions.java:141:	Found 'DU'-anomaly for variable 'childnum' (lines '141'-'188').
+src/com/aaron/GraphFunctions.java:142:	Found 'DD'-anomaly for variable 'tmpplace' (lines '142'-'147').
+src/com/aaron/GraphFunctions.java:144:	Found 'DD'-anomaly for variable 'result' (lines '144'-'146').
+src/com/aaron/GraphFunctions.java:146:	Found 'DD'-anomaly for variable 'result' (lines '146'-'169').
+src/com/aaron/GraphFunctions.java:146:	Found 'DU'-anomaly for variable 'result' (lines '146'-'188').
+src/com/aaron/GraphFunctions.java:149:	Found 'DD'-anomaly for variable 'visited' (lines '149'-'154').
+src/com/aaron/GraphFunctions.java:149:	Found 'DU'-anomaly for variable 'visited' (lines '149'-'188').
+src/com/aaron/GraphFunctions.java:150:	Found 'DU'-anomaly for variable 'tmpvisit' (lines '150'-'188').
+src/com/aaron/GraphFunctions.java:154:	Found 'DD'-anomaly for variable 'visited' (lines '154'-'154').
+src/com/aaron/GraphFunctions.java:154:	Found 'DU'-anomaly for variable 'visited' (lines '154'-'188').
+src/com/aaron/GraphFunctions.java:158:	Avoid unnecessary comparisons in boolean expressions
+src/com/aaron/GraphFunctions.java:164:	Found 'DD'-anomaly for variable 'nodechild' (lines '164'-'164').
+src/com/aaron/GraphFunctions.java:167:	Local variable 'nextplace' could be declared final
+src/com/aaron/GraphFunctions.java:167:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/GraphFunctions.java:168:	Avoid unnecessary comparisons in boolean expressions
+src/com/aaron/GraphFunctions.java:169:	Found 'DD'-anomaly for variable 'result' (lines '169'-'169').
+src/com/aaron/GraphFunctions.java:169:	Found 'DU'-anomaly for variable 'result' (lines '169'-'188').
+src/com/aaron/GraphFunctions.java:171:	Found 'DU'-anomaly for variable 'visited' (lines '171'-'188').
+src/com/aaron/GraphFunctions.java:173:	Found 'DU'-anomaly for variable 'tmpvisit' (lines '173'-'188').
+src/com/aaron/GraphFunctions.java:180:	Found 'DD'-anomaly for variable 'res' (lines '180'-'183').
+src/com/aaron/GraphFunctions.java:181:	System.out.println is used
+src/com/aaron/GraphFunctions.java:182:	System.arraycopy is more efficient
+src/com/aaron/GraphFunctions.java:183:	Found 'DD'-anomaly for variable 'res' (lines '183'-'183').
+src/com/aaron/GraphFunctions.java:184:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/GraphFunctions.java:184:	System.out.print is used
+src/com/aaron/GraphFunctions.java:186:	System.out.println is used
+src/com/aaron/GraphFunctions.java:189:	Comment is too large: Too many lines
+src/com/aaron/GraphFunctions.java:253:	Avoid variables with short names like G
+src/com/aaron/GraphFunctions.java:253:	Method names should not start with capital letters
+src/com/aaron/GraphFunctions.java:253:	Parameter 'G' is not assigned and could be declared final
+src/com/aaron/GraphFunctions.java:253:	Parameter 'dst' is not assigned and could be declared final
+src/com/aaron/GraphFunctions.java:253:	Parameter 'src' is not assigned and could be declared final
+src/com/aaron/GraphFunctions.java:253:	The method 'Dijkstra' has a Cyclomatic Complexity of 18.
+src/com/aaron/GraphFunctions.java:253:	The method 'Dijkstra' has a Modified Cyclomatic Complexity of 14.
+src/com/aaron/GraphFunctions.java:253:	The method 'Dijkstra' has a Standard Cyclomatic Complexity of 14.
+src/com/aaron/GraphFunctions.java:253:	The method Dijkstra() has an NPath complexity of 2196
+src/com/aaron/GraphFunctions.java:253:	Variables should start with a lowercase character, 'G' starts with uppercase character.
+src/com/aaron/GraphFunctions.java:253:	publicMethodCommentRequirement Required
+src/com/aaron/GraphFunctions.java:254:	Found 'DD'-anomaly for variable 'graph' (lines '254'-'259').
+src/com/aaron/GraphFunctions.java:255:	Found 'DD'-anomaly for variable 'store' (lines '255'-'260').
+src/com/aaron/GraphFunctions.java:256:	Local variable 'size' could be declared final
+src/com/aaron/GraphFunctions.java:259:	Found 'DD'-anomaly for variable 'graph' (lines '259'-'259').
+src/com/aaron/GraphFunctions.java:259:	Found 'DD'-anomaly for variable 'graph' (lines '259'-'266').
+src/com/aaron/GraphFunctions.java:260:	Found 'DD'-anomaly for variable 'store' (lines '260'-'260').
+src/com/aaron/GraphFunctions.java:260:	Found 'DD'-anomaly for variable 'store' (lines '260'-'284').
+src/com/aaron/GraphFunctions.java:266:	Found 'DD'-anomaly for variable 'graph' (lines '266'-'266').
+src/com/aaron/GraphFunctions.java:271:	Local variable 'srcnum' could be declared final
+src/com/aaron/GraphFunctions.java:271:	Potential violation of Law of Demeter (static property access)
+src/com/aaron/GraphFunctions.java:272:	Local variable 'dstnum' could be declared final
+src/com/aaron/GraphFunctions.java:272:	Potential violation of Law of Demeter (static property access)
+src/com/aaron/GraphFunctions.java:275:	Found 'DD'-anomaly for variable 'shortest' (lines '275'-'302').
+src/com/aaron/GraphFunctions.java:275:	Found 'DU'-anomaly for variable 'shortest' (lines '275'-'341').
+src/com/aaron/GraphFunctions.java:276:	Found 'DD'-anomaly for variable 'shortnum' (lines '276'-'303').
+src/com/aaron/GraphFunctions.java:278:	Found 'DD'-anomaly for variable 'finish' (lines '278'-'283').
+src/com/aaron/GraphFunctions.java:279:	Avoid variables with short names like D
+src/com/aaron/GraphFunctions.java:279:	Found 'DD'-anomaly for variable 'D' (lines '279'-'282').
+src/com/aaron/GraphFunctions.java:279:	Variables should start with a lowercase character, 'D' starts with uppercase character.
+src/com/aaron/GraphFunctions.java:282:	Found 'DD'-anomaly for variable 'D' (lines '282'-'282').
+src/com/aaron/GraphFunctions.java:282:	Found 'DD'-anomaly for variable 'D' (lines '282'-'288').
+src/com/aaron/GraphFunctions.java:283:	Found 'DD'-anomaly for variable 'finish' (lines '283'-'283').
+src/com/aaron/GraphFunctions.java:283:	Found 'DD'-anomaly for variable 'finish' (lines '283'-'287').
+src/com/aaron/GraphFunctions.java:284:	Found 'DD'-anomaly for variable 'store' (lines '284'-'284').
+src/com/aaron/GraphFunctions.java:284:	Found 'DD'-anomaly for variable 'store' (lines '284'-'301').
+src/com/aaron/GraphFunctions.java:284:	Found 'DD'-anomaly for variable 'store' (lines '284'-'312').
+src/com/aaron/GraphFunctions.java:284:	Found 'DD'-anomaly for variable 'store' (lines '284'-'319').
+src/com/aaron/GraphFunctions.java:289:	Avoid variables with short names like v
+src/com/aaron/GraphFunctions.java:289:	Found 'DD'-anomaly for variable 'v' (lines '289'-'295').
+src/com/aaron/GraphFunctions.java:290:	Found 'DD'-anomaly for variable 'min' (lines '290'-'292').
+src/com/aaron/GraphFunctions.java:292:	Found 'DU'-anomaly for variable 'min' (lines '292'-'341').
+src/com/aaron/GraphFunctions.java:295:	Found 'DD'-anomaly for variable 'v' (lines '295'-'295').
+src/com/aaron/GraphFunctions.java:296:	Found 'DD'-anomaly for variable 'min' (lines '296'-'292').
+src/com/aaron/GraphFunctions.java:296:	Found 'DU'-anomaly for variable 'min' (lines '296'-'341').
+src/com/aaron/GraphFunctions.java:299:	Found 'DU'-anomaly for variable 'finish' (lines '299'-'341').
+src/com/aaron/GraphFunctions.java:302:	Found 'DU'-anomaly for variable 'shortest' (lines '302'-'341').
+src/com/aaron/GraphFunctions.java:310:	These nested if statements could be combined
+src/com/aaron/GraphFunctions.java:314:	Found 'DD'-anomaly for variable 'store' (lines '314'-'312').
+src/com/aaron/GraphFunctions.java:314:	Found 'DD'-anomaly for variable 'store' (lines '314'-'319').
+src/com/aaron/GraphFunctions.java:319:	Found 'DD'-anomaly for variable 'store' (lines '319'-'301').
+src/com/aaron/GraphFunctions.java:319:	Found 'DD'-anomaly for variable 'store' (lines '319'-'312').
+src/com/aaron/GraphFunctions.java:319:	Found 'DD'-anomaly for variable 'store' (lines '319'-'319').
+src/com/aaron/GraphFunctions.java:319:	Found 'DU'-anomaly for variable 'store' (lines '319'-'341').
+src/com/aaron/GraphFunctions.java:323:	Found 'DU'-anomaly for variable 'count' (lines '323'-'341').
+src/com/aaron/GraphFunctions.java:324:	Found 'DD'-anomaly for variable 'result' (lines '324'-'325').
+src/com/aaron/GraphFunctions.java:325:	Found 'DD'-anomaly for variable 'result' (lines '325'-'329').
+src/com/aaron/GraphFunctions.java:325:	Found 'DD'-anomaly for variable 'result' (lines '325'-'339').
+src/com/aaron/GraphFunctions.java:329:	Found 'DD'-anomaly for variable 'result' (lines '329'-'329').
+src/com/aaron/GraphFunctions.java:329:	Found 'DD'-anomaly for variable 'result' (lines '329'-'339').
+src/com/aaron/ListDG.java:13:	The class 'ListDG' has a Cyclomatic Complexity of 7 (Highest = 22).
+src/com/aaron/ListDG.java:13:	The class 'ListDG' has a Modified Cyclomatic Complexity of 7 (Highest = 22).
+src/com/aaron/ListDG.java:13:	The class 'ListDG' has a Standard Cyclomatic Complexity of 7 (Highest = 22).
+src/com/aaron/ListDG.java:13:	headerCommentRequirement Required
+src/com/aaron/ListDG.java:14:	Each class should declare at least one constructor
+src/com/aaron/ListDG.java:14:	headerCommentRequirement Required
+src/com/aaron/ListDG.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/ListDG.java:15:	To avoid mistakes add a comment at the beginning of the ivex field if you want a default access modifier
+src/com/aaron/ListDG.java:15:	Use explicit scoping instead of the default package private level
+src/com/aaron/ListDG.java:15:	fieldCommentRequirement Required
+src/com/aaron/ListDG.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/ListDG.java:16:	To avoid mistakes add a comment at the beginning of the weight field if you want a default access modifier
+src/com/aaron/ListDG.java:16:	Use explicit scoping instead of the default package private level
+src/com/aaron/ListDG.java:16:	fieldCommentRequirement Required
+src/com/aaron/ListDG.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/ListDG.java:17:	To avoid mistakes add a comment at the beginning of the nextEdge field if you want a default access modifier
+src/com/aaron/ListDG.java:17:	Use explicit scoping instead of the default package private level
+src/com/aaron/ListDG.java:17:	fieldCommentRequirement Required
+src/com/aaron/ListDG.java:19:	Each class should declare at least one constructor
+src/com/aaron/ListDG.java:19:	headerCommentRequirement Required
+src/com/aaron/ListDG.java:20:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/ListDG.java:20:	To avoid mistakes add a comment at the beginning of the data field if you want a default access modifier
+src/com/aaron/ListDG.java:20:	Use explicit scoping instead of the default package private level
+src/com/aaron/ListDG.java:20:	fieldCommentRequirement Required
+src/com/aaron/ListDG.java:21:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/ListDG.java:21:	To avoid mistakes add a comment at the beginning of the firstEdge field if you want a default access modifier
+src/com/aaron/ListDG.java:21:	Use explicit scoping instead of the default package private level
+src/com/aaron/ListDG.java:21:	fieldCommentRequirement Required
+src/com/aaron/ListDG.java:23:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/ListDG.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/ListDG.java:23:	fieldCommentRequirement Required
+src/com/aaron/ListDG.java:24:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/ListDG.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/ListDG.java:24:	fieldCommentRequirement Required
+src/com/aaron/ListDG.java:25:	Avoid using implementation types like 'Hashtable'; use the interface instead
+src/com/aaron/ListDG.java:25:	Consider replacing this Hashtable with the newer java.util.Map
+src/com/aaron/ListDG.java:25:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/ListDG.java:25:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/ListDG.java:25:	fieldCommentRequirement Required
+src/com/aaron/ListDG.java:26:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/ListDG.java:26:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/ListDG.java:26:	This final field could be made static
+src/com/aaron/ListDG.java:26:	fieldCommentRequirement Required
+src/com/aaron/ListDG.java:28:	Parameter 'file' is not assigned and could be declared final
+src/com/aaron/ListDG.java:28:	The constructor 'ListDG' has a Cyclomatic Complexity of 22.
+src/com/aaron/ListDG.java:28:	The constructor 'ListDG' has a Modified Cyclomatic Complexity of 22.
+src/com/aaron/ListDG.java:28:	The constructor 'ListDG' has a Standard Cyclomatic Complexity of 22.
+src/com/aaron/ListDG.java:28:	publicMethodCommentRequirement Required
+src/com/aaron/ListDG.java:37:	Avoid using if statements without curly braces
+src/com/aaron/ListDG.java:38:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/com/aaron/ListDG.java:39:	Avoid variables with short names like s
+src/com/aaron/ListDG.java:39:	Local variable 's' could be declared final
+src/com/aaron/ListDG.java:41:	Avoid using if statements without curly braces
+src/com/aaron/ListDG.java:56:	Avoid using if statements without curly braces
+src/com/aaron/ListDG.java:60:	Avoid using if statements without curly braces
+src/com/aaron/ListDG.java:66:	Avoid using for statements without curly braces
+src/com/aaron/ListDG.java:69:	Avoid instantiating new objects inside loops
+src/com/aaron/ListDG.java:71:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/com/aaron/ListDG.java:88:	Avoid unnecessary comparisons in boolean expressions
+src/com/aaron/ListDG.java:89:	Avoid instantiating new objects inside loops
+src/com/aaron/ListDG.java:89:	Local variable 'newNode' could be declared final
+src/com/aaron/ListDG.java:97:	Avoid using for statements without curly braces
+src/com/aaron/ListDG.java:100:	Comment is too large: Too many lines
+src/com/aaron/ListDG.java:112:	Avoid printStackTrace(); use a logger call instead.
+src/com/aaron/ListDG.java:118:	Avoid printStackTrace(); use a logger call instead.
+src/com/aaron/ListDG.java:124:	Parameter 'node' is not assigned and could be declared final
+src/com/aaron/ListDG.java:124:	Parameter 'startv' is not assigned and could be declared final
+src/com/aaron/ListDG.java:125:	Avoid using if...else statements without curly braces
+src/com/aaron/ListDG.java:128:	Avoid using while statements without curly braces
+src/com/aaron/ListDG.java:132:	Comment is too large: Too many lines
+src/com/aaron/ListDG.java:162:	publicMethodCommentRequirement Required
+src/com/aaron/ListDG.java:166:	publicMethodCommentRequirement Required
+src/com/aaron/ListDG.java:170:	publicMethodCommentRequirement Required
+src/com/aaron/ListDG.java:176:	Avoid using if statements without curly braces
+src/com/aaron/ListDG.java:183:	Avoid using for statements without curly braces
+src/com/aaron/ListDG.java:184:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/ListDG.java:184:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/ListDG.java:188:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/ListDG.java:188:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/ListDG.java:188:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/ListDG.java:188:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/ListDG.java:197:	Avoid printStackTrace(); use a logger call instead.
+src/com/aaron/MainPairPrograming.java:2:	Possible God class (WMC=50, ATFD=146, TCC=0.07575757575757576)
+src/com/aaron/MainPairPrograming.java:14:	The class 'MainPairPrograming' has a Cyclomatic Complexity of 4 (Highest = 15).
+src/com/aaron/MainPairPrograming.java:14:	The class 'MainPairPrograming' has a Modified Cyclomatic Complexity of 3 (Highest = 13).
+src/com/aaron/MainPairPrograming.java:14:	The class 'MainPairPrograming' has a Standard Cyclomatic Complexity of 4 (Highest = 13).
+src/com/aaron/MainPairPrograming.java:14:	This class has too many methods, consider refactoring it.
+src/com/aaron/MainPairPrograming.java:14:	Too many fields
+src/com/aaron/MainPairPrograming.java:14:	headerCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:15:	To avoid mistakes add a comment at the beginning of the DotPath field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:15:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:15:	Variables should start with a lowercase character, 'DotPath' starts with uppercase character.
+src/com/aaron/MainPairPrograming.java:15:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:16:	To avoid mistakes add a comment at the beginning of the theMenuBar field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:16:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:16:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:17:	To avoid mistakes add a comment at the beginning of the fileMenu field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:17:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:17:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:18:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:18:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:18:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:18:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:18:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:18:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:18:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:18:	To avoid mistakes add a comment at the beginning of the importJMI field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:18:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:18:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:19:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:19:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:19:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:19:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:19:	To avoid mistakes add a comment at the beginning of the shortestPathJMI field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:19:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:19:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:20:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:20:	To avoid mistakes add a comment at the beginning of the label field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:20:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:20:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:21:	To avoid mistakes add a comment at the beginning of the panelForDrawing field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:21:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:21:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:89:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/MainPairPrograming.java:89:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:89:	To avoid mistakes add a comment at the beginning of the fileToOpen field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:89:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:89:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:90:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/MainPairPrograming.java:90:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:90:	To avoid mistakes add a comment at the beginning of the graph field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:90:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:90:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:91:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/MainPairPrograming.java:91:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:91:	To avoid mistakes add a comment at the beginning of the componentsToDraw field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:91:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:91:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:93:	Avoid variables with short names like e
+src/com/aaron/MainPairPrograming.java:93:	Parameter 'e' is not assigned and could be declared final
+src/com/aaron/MainPairPrograming.java:93:	The method 'actionPerformed' has a Cyclomatic Complexity of 10.
+src/com/aaron/MainPairPrograming.java:93:	The method 'actionPerformed' has a Standard Cyclomatic Complexity of 10.
+src/com/aaron/MainPairPrograming.java:93:	publicMethodCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:94:	Local variable 'source' could be declared final
+src/com/aaron/MainPairPrograming.java:95:	Potential violation of Law of Demeter (object not created locally)
+src/com/aaron/MainPairPrograming.java:97:	Local variable 'operation' could be declared final
+src/com/aaron/MainPairPrograming.java:97:	Potential violation of Law of Demeter (object not created locally)
+src/com/aaron/MainPairPrograming.java:98:	Local variable 'temp' could be declared final
+src/com/aaron/MainPairPrograming.java:98:	Potential violation of Law of Demeter (object not created locally)
+src/com/aaron/MainPairPrograming.java:99:	Potential violation of Law of Demeter (object not created locally)
+src/com/aaron/MainPairPrograming.java:99:	Switch statements should have a default label
+src/com/aaron/MainPairPrograming.java:112:	Parameter 'args' is not assigned and could be declared final
+src/com/aaron/MainPairPrograming.java:112:	publicMethodCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:113:	Local variable 'frame' could be declared final
+src/com/aaron/MainPairPrograming.java:124:	Avoid variables with short names like fc
+src/com/aaron/MainPairPrograming.java:125:	Local variable 'returnValue' could be declared final
+src/com/aaron/MainPairPrograming.java:125:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:125:	Useless qualified this usage in the same class.
+src/com/aaron/MainPairPrograming.java:136:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/com/aaron/MainPairPrograming.java:151:	Avoid using if...else statements without curly braces
+src/com/aaron/MainPairPrograming.java:152:	Avoid using if...else statements without curly braces
+src/com/aaron/MainPairPrograming.java:159:	Local variable 'dotFile' could be declared final
+src/com/aaron/MainPairPrograming.java:160:	Local variable 'thisDirectory' could be declared final
+src/com/aaron/MainPairPrograming.java:161:	The String literal "\\dot " appears 6 times in this file; the first occurrence is on line 161
+src/com/aaron/MainPairPrograming.java:165:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/com/aaron/MainPairPrograming.java:166:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/com/aaron/MainPairPrograming.java:167:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/com/aaron/MainPairPrograming.java:182:	The String literal "DotFileRunning.gv" appears 6 times in this file; the first occurrence is on line 182
+src/com/aaron/MainPairPrograming.java:183:	Local variable 'theDirectory' could be declared final
+src/com/aaron/MainPairPrograming.java:184:	Local variable 'thisDirectory' could be declared final
+src/com/aaron/MainPairPrograming.java:193:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/MainPairPrograming.java:193:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:193:	To avoid mistakes add a comment at the beginning of the bridgeWordsDialog field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:193:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:193:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:194:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/MainPairPrograming.java:194:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:194:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:194:	To avoid mistakes add a comment at the beginning of the inputWord1 field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:194:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:194:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:195:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/MainPairPrograming.java:195:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:195:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:195:	To avoid mistakes add a comment at the beginning of the word1 field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:195:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:195:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:196:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/MainPairPrograming.java:196:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:196:	To avoid mistakes add a comment at the beginning of the outputWords field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:196:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:196:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:197:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/MainPairPrograming.java:197:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:197:	To avoid mistakes add a comment at the beginning of the query field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:197:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:197:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:198:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/MainPairPrograming.java:198:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:198:	To avoid mistakes add a comment at the beginning of the gridbag field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:198:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:198:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:199:	Avoid variables with short names like c
+src/com/aaron/MainPairPrograming.java:199:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/MainPairPrograming.java:199:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:199:	To avoid mistakes add a comment at the beginning of the c field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:199:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:199:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:200:	Avoid variables with short names like c
+src/com/aaron/MainPairPrograming.java:200:	Avoid variables with short names like gh
+src/com/aaron/MainPairPrograming.java:200:	Avoid variables with short names like gw
+src/com/aaron/MainPairPrograming.java:200:	Avoid variables with short names like gx
+src/com/aaron/MainPairPrograming.java:200:	Avoid variables with short names like gy
+src/com/aaron/MainPairPrograming.java:200:	Avoid variables with short names like ix
+src/com/aaron/MainPairPrograming.java:200:	Avoid variables with short names like iy
+src/com/aaron/MainPairPrograming.java:200:	Avoid variables with short names like wx
+src/com/aaron/MainPairPrograming.java:200:	Avoid variables with short names like wy
+src/com/aaron/MainPairPrograming.java:200:	Parameter 'c' is not assigned and could be declared final
+src/com/aaron/MainPairPrograming.java:200:	Parameter 'gh' is not assigned and could be declared final
+src/com/aaron/MainPairPrograming.java:200:	Parameter 'gw' is not assigned and could be declared final
+src/com/aaron/MainPairPrograming.java:200:	Parameter 'gx' is not assigned and could be declared final
+src/com/aaron/MainPairPrograming.java:200:	Parameter 'gy' is not assigned and could be declared final
+src/com/aaron/MainPairPrograming.java:200:	Parameter 'ix' is not assigned and could be declared final
+src/com/aaron/MainPairPrograming.java:200:	Parameter 'iy' is not assigned and could be declared final
+src/com/aaron/MainPairPrograming.java:200:	Parameter 'wx' is not assigned and could be declared final
+src/com/aaron/MainPairPrograming.java:200:	Parameter 'wy' is not assigned and could be declared final
+src/com/aaron/MainPairPrograming.java:226:	Avoid variables with short names like e
+src/com/aaron/MainPairPrograming.java:226:	Parameter 'e' is not assigned and could be declared final
+src/com/aaron/MainPairPrograming.java:226:	publicMethodCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:227:	Found 'DD'-anomaly for variable 'wordString1' (lines '227'-'229').
+src/com/aaron/MainPairPrograming.java:227:	Found 'DD'-anomaly for variable 'wordString1' (lines '227'-'229').
+src/com/aaron/MainPairPrograming.java:228:	Found 'DD'-anomaly for variable 'wordString2' (lines '228'-'230').
+src/com/aaron/MainPairPrograming.java:228:	Found 'DD'-anomaly for variable 'wordString2' (lines '228'-'230').
+src/com/aaron/MainPairPrograming.java:229:	Potential violation of Law of Demeter (object not created locally)
+src/com/aaron/MainPairPrograming.java:229:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/com/aaron/MainPairPrograming.java:230:	Potential violation of Law of Demeter (object not created locally)
+src/com/aaron/MainPairPrograming.java:230:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/com/aaron/MainPairPrograming.java:261:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/MainPairPrograming.java:261:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:261:	To avoid mistakes add a comment at the beginning of the newTextDialog field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:261:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:261:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:262:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/MainPairPrograming.java:262:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:262:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:262:	To avoid mistakes add a comment at the beginning of the inputNewText field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:262:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:262:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:263:	Field formulateNewText has the same name as a method
+src/com/aaron/MainPairPrograming.java:263:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/MainPairPrograming.java:263:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:263:	To avoid mistakes add a comment at the beginning of the formulateNewText field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:263:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:263:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:264:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/MainPairPrograming.java:264:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:264:	To avoid mistakes add a comment at the beginning of the inNewText field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:264:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:264:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:265:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/MainPairPrograming.java:265:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:265:	To avoid mistakes add a comment at the beginning of the newTextLayout field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:265:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:265:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:266:	Avoid excessively long variable names like newTextConstraints
+src/com/aaron/MainPairPrograming.java:266:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/MainPairPrograming.java:266:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:266:	To avoid mistakes add a comment at the beginning of the newTextConstraints field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:266:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:266:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:277:	Avoid variables with short names like e
+src/com/aaron/MainPairPrograming.java:277:	Parameter 'e' is not assigned and could be declared final
+src/com/aaron/MainPairPrograming.java:277:	publicMethodCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:278:	Found 'DD'-anomaly for variable 'inputString' (lines '278'-'279').
+src/com/aaron/MainPairPrograming.java:278:	Found 'DD'-anomaly for variable 'inputString' (lines '278'-'279').
+src/com/aaron/MainPairPrograming.java:279:	Potential violation of Law of Demeter (object not created locally)
+src/com/aaron/MainPairPrograming.java:279:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/com/aaron/MainPairPrograming.java:304:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/MainPairPrograming.java:304:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:304:	To avoid mistakes add a comment at the beginning of the pathDialog field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:304:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:304:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:305:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/MainPairPrograming.java:305:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:305:	To avoid mistakes add a comment at the beginning of the pathLayout field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:305:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:305:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:306:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/MainPairPrograming.java:306:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:306:	To avoid mistakes add a comment at the beginning of the pathConstraints field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:306:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:306:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:307:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/MainPairPrograming.java:307:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:307:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:307:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:307:	To avoid mistakes add a comment at the beginning of the pathInputWord1 field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:307:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:307:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:308:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/MainPairPrograming.java:308:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:308:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:308:	To avoid mistakes add a comment at the beginning of the pathWord1 field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:308:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:308:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:309:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/MainPairPrograming.java:309:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:309:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:309:	To avoid mistakes add a comment at the beginning of the pathCalculate field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:309:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:309:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:310:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/MainPairPrograming.java:310:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:310:	To avoid mistakes add a comment at the beginning of the theway field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:310:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:310:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:311:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/MainPairPrograming.java:311:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:311:	To avoid mistakes add a comment at the beginning of the wayIndex field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:311:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:311:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:312:	Avoid really long methods.
+src/com/aaron/MainPairPrograming.java:312:	The method 'shortestPath' has a Cyclomatic Complexity of 15.
+src/com/aaron/MainPairPrograming.java:312:	The method 'shortestPath' has a Modified Cyclomatic Complexity of 13.
+src/com/aaron/MainPairPrograming.java:312:	The method 'shortestPath' has a Standard Cyclomatic Complexity of 13.
+src/com/aaron/MainPairPrograming.java:352:	Avoid variables with short names like e
+src/com/aaron/MainPairPrograming.java:352:	Parameter 'e' is not assigned and could be declared final
+src/com/aaron/MainPairPrograming.java:352:	publicMethodCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:353:	Found 'DD'-anomaly for variable 'word1' (lines '353'-'355').
+src/com/aaron/MainPairPrograming.java:353:	Found 'DD'-anomaly for variable 'word1' (lines '353'-'355').
+src/com/aaron/MainPairPrograming.java:353:	Found 'DD'-anomaly for variable 'word1' (lines '353'-'355').
+src/com/aaron/MainPairPrograming.java:354:	Found 'DD'-anomaly for variable 'word2' (lines '354'-'356').
+src/com/aaron/MainPairPrograming.java:354:	Found 'DD'-anomaly for variable 'word2' (lines '354'-'356').
+src/com/aaron/MainPairPrograming.java:354:	Found 'DD'-anomaly for variable 'word2' (lines '354'-'356').
+src/com/aaron/MainPairPrograming.java:355:	Potential violation of Law of Demeter (object not created locally)
+src/com/aaron/MainPairPrograming.java:355:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/com/aaron/MainPairPrograming.java:356:	Potential violation of Law of Demeter (object not created locally)
+src/com/aaron/MainPairPrograming.java:356:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/com/aaron/MainPairPrograming.java:357:	Avoid if (x != y) ..; else ..;
+src/com/aaron/MainPairPrograming.java:357:	Potential violation of Law of Demeter (static property access)
+src/com/aaron/MainPairPrograming.java:357:	Potential violation of Law of Demeter (static property access)
+src/com/aaron/MainPairPrograming.java:359:	Avoid if (x != y) ..; else ..;
+src/com/aaron/MainPairPrograming.java:359:	Potential violation of Law of Demeter (static property access)
+src/com/aaron/MainPairPrograming.java:361:	Avoid if (x != y) ..; else ..;
+src/com/aaron/MainPairPrograming.java:361:	Potential violation of Law of Demeter (static property access)
+src/com/aaron/MainPairPrograming.java:364:	Avoid using for statements without curly braces
+src/com/aaron/MainPairPrograming.java:365:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:365:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:365:	The String literal "black" appears 4 times in this file; the first occurrence is on line 365
+src/com/aaron/MainPairPrograming.java:366:	Avoid using for statements without curly braces
+src/com/aaron/MainPairPrograming.java:367:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:367:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:369:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:371:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:371:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:371:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:371:	The String literal "red" appears 6 times in this file; the first occurrence is on line 371
+src/com/aaron/MainPairPrograming.java:372:	Local variable 'thisDirectory' could be declared final
+src/com/aaron/MainPairPrograming.java:374:	The String literal " -T gif -o " appears 4 times in this file; the first occurrence is on line 374
+src/com/aaron/MainPairPrograming.java:374:	The String literal "\\GraphRunning.gif" appears 4 times in this file; the first occurrence is on line 374
+src/com/aaron/MainPairPrograming.java:378:	Comment is too large: Too many lines
+src/com/aaron/MainPairPrograming.java:382:	Comment is too large: Line too long
+src/com/aaron/MainPairPrograming.java:389:	Comment is too large: Line too long
+src/com/aaron/MainPairPrograming.java:394:	Avoid variables with short names like e
+src/com/aaron/MainPairPrograming.java:394:	Parameter 'e' is not assigned and could be declared final
+src/com/aaron/MainPairPrograming.java:394:	publicMethodCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:395:	Avoid using for statements without curly braces
+src/com/aaron/MainPairPrograming.java:396:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:396:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:396:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:398:	Avoid using for statements without curly braces
+src/com/aaron/MainPairPrograming.java:400:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:400:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:405:	Local variable 'oldRunningGraph' could be declared final
+src/com/aaron/MainPairPrograming.java:406:	Avoid using if statements without curly braces
+src/com/aaron/MainPairPrograming.java:407:	Local variable 'thisDirectory' could be declared final
+src/com/aaron/MainPairPrograming.java:419:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/MainPairPrograming.java:419:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:419:	To avoid mistakes add a comment at the beginning of the travelDialog field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:419:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:419:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:420:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/MainPairPrograming.java:420:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:420:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:420:	To avoid mistakes add a comment at the beginning of the travelStart field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:420:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:420:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:421:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/MainPairPrograming.java:421:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:421:	To avoid mistakes add a comment at the beginning of the travel field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:421:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:421:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:422:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/MainPairPrograming.java:422:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:422:	To avoid mistakes add a comment at the beginning of the travelLayout field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:422:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:422:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:423:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/MainPairPrograming.java:423:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:423:	To avoid mistakes add a comment at the beginning of the travelConstraints field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:423:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:423:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:424:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/MainPairPrograming.java:424:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:424:	To avoid mistakes add a comment at the beginning of the places field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:424:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:424:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:425:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/aaron/MainPairPrograming.java:425:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/aaron/MainPairPrograming.java:425:	To avoid mistakes add a comment at the beginning of the placeIndex field if you want a default access modifier
+src/com/aaron/MainPairPrograming.java:425:	Use explicit scoping instead of the default package private level
+src/com/aaron/MainPairPrograming.java:425:	fieldCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:426:	The method 'randomTravel' has a Cyclomatic Complexity of 11.
+src/com/aaron/MainPairPrograming.java:426:	The method 'randomTravel' has a Modified Cyclomatic Complexity of 10.
+src/com/aaron/MainPairPrograming.java:426:	The method 'randomTravel' has a Standard Cyclomatic Complexity of 10.
+src/com/aaron/MainPairPrograming.java:452:	Avoid variables with short names like e
+src/com/aaron/MainPairPrograming.java:452:	Parameter 'e' is not assigned and could be declared final
+src/com/aaron/MainPairPrograming.java:452:	publicMethodCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:453:	Avoid using for statements without curly braces
+src/com/aaron/MainPairPrograming.java:454:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:454:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:455:	Avoid using for statements without curly braces
+src/com/aaron/MainPairPrograming.java:456:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:456:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:459:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:459:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:459:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:460:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:460:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:460:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:461:	Local variable 'thisDirectory' could be declared final
+src/com/aaron/MainPairPrograming.java:468:	Comment is too large: Too many lines
+src/com/aaron/MainPairPrograming.java:480:	Comment is too large: Line too long
+src/com/aaron/MainPairPrograming.java:487:	Comment is too large: Line too long
+src/com/aaron/MainPairPrograming.java:493:	Avoid variables with short names like e
+src/com/aaron/MainPairPrograming.java:493:	Parameter 'e' is not assigned and could be declared final
+src/com/aaron/MainPairPrograming.java:493:	publicMethodCommentRequirement Required
+src/com/aaron/MainPairPrograming.java:494:	System.out.println is used
+src/com/aaron/MainPairPrograming.java:496:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:496:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:496:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:496:	System.out.print is used
+src/com/aaron/MainPairPrograming.java:497:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:497:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:497:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:499:	System.out.println is used
+src/com/aaron/MainPairPrograming.java:500:	Avoid using for statements without curly braces
+src/com/aaron/MainPairPrograming.java:501:	Avoid using for statements without curly braces
+src/com/aaron/MainPairPrograming.java:503:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:503:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:504:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:504:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:504:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:504:	Potential violation of Law of Demeter (method chain calls)
+src/com/aaron/MainPairPrograming.java:504:	System.out.println is used
+src/com/aaron/MainPairPrograming.java:507:	Local variable 'oldRunningGraph' could be declared final
+src/com/aaron/MainPairPrograming.java:508:	Avoid using if statements without curly braces
+src/com/aaron/MainPairPrograming.java:509:	Local variable 'thisDirectory' could be declared final
+src/com/aaron/SetLookAndFeel.java:5:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/com/aaron/SetLookAndFeel.java:5:	headerCommentRequirement Required
+src/com/aaron/SetLookAndFeel.java:6:	publicMethodCommentRequirement Required
+src/com/aaron/SetLookAndFeel.java:9:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/aaron/SetLookAndFeel.java:10:	System.out.println is used
+src/com/aaron/SetLookAndFeel.java:13:	publicMethodCommentRequirement Required
+src/com/aaron/SetLookAndFeel.java:16:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/aaron/SetLookAndFeel.java:17:	System.out.println is used
+src/com/aaron/SetLookAndFeel.java:20:	publicMethodCommentRequirement Required
+src/com/aaron/SetLookAndFeel.java:23:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/aaron/SetLookAndFeel.java:24:	System.out.println is used
+src/net/Command.java:6:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/net/Command.java:6:	headerCommentRequirement Required
+src/net/Command.java:7:	Parameter 'command' is not assigned and could be declared final
+src/net/Command.java:7:	publicMethodCommentRequirement Required
+src/net/Command.java:8:	Avoid variables with short names like br
+src/net/Command.java:8:	Found 'DD'-anomaly for variable 'br' (lines '8'-'11').
+src/net/Command.java:10:	Avoid variables with short names like p
+src/net/Command.java:10:	Local variable 'p' could be declared final
+src/net/Command.java:10:	Potential violation of Law of Demeter (method chain calls)
+src/net/Command.java:11:	Potential violation of Law of Demeter (object not created locally)
+src/net/Command.java:12:	Found 'DD'-anomaly for variable 'line' (lines '12'-'14').
+src/net/Command.java:13:	Avoid variables with short names like sb
+src/net/Command.java:13:	Local variable 'sb' could be declared final
+src/net/Command.java:14:	Avoid assignments in operands
+src/net/Command.java:14:	Found 'DU'-anomaly for variable 'line' (lines '14'-'32').
+src/net/Command.java:15:	Avoid concatenating nonliterals in a StringBuffer/StringBuilder constructor or append().
+src/net/Command.java:17:	System.out.println is used
+src/net/Command.java:18:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/net/Command.java:19:	Avoid printStackTrace(); use a logger call instead.
+src/net/Command.java:27:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/net/Command.java:28:	Avoid printStackTrace(); use a logger call instead.
+src/net/GraphViz.java:7:	headerCommentRequirement Required
+src/net/GraphViz.java:8:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/net/GraphViz.java:8:	Private field 'runPath' could be made final; it is only initialized in the declaration or constructor.
+src/net/GraphViz.java:8:	fieldCommentRequirement Required
+src/net/GraphViz.java:9:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/net/GraphViz.java:9:	Private field 'dotPath' could be made final; it is only initialized in the declaration or constructor.
+src/net/GraphViz.java:9:	fieldCommentRequirement Required
+src/net/GraphViz.java:10:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/net/GraphViz.java:10:	fieldCommentRequirement Required
+src/net/GraphViz.java:11:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/net/GraphViz.java:11:	Private field 'dotCodeFile' could be made final; it is only initialized in the declaration or constructor.
+src/net/GraphViz.java:11:	fieldCommentRequirement Required
+src/net/GraphViz.java:12:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/net/GraphViz.java:12:	Private field 'resultGif' could be made final; it is only initialized in the declaration or constructor.
+src/net/GraphViz.java:12:	fieldCommentRequirement Required
+src/net/GraphViz.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/net/GraphViz.java:13:	Private field 'graph' could be made final; it is only initialized in the declaration or constructor.
+src/net/GraphViz.java:13:	StringBuffer constructor is initialized with size 16, but has at least 21 characters appended.
+src/net/GraphViz.java:13:	StringBuffers can grow quite a lot, and so may become a source of memory leak (if the owning class has a long life time).
+src/net/GraphViz.java:13:	fieldCommentRequirement Required
+src/net/GraphViz.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/net/GraphViz.java:15:	To avoid mistakes add a comment at the beginning of the runtime field if you want a default access modifier
+src/net/GraphViz.java:15:	Use explicit scoping instead of the default package private level
+src/net/GraphViz.java:15:	fieldCommentRequirement Required
+src/net/GraphViz.java:17:	publicMethodCommentRequirement Required
+src/net/GraphViz.java:18:	Local variable 'file' could be declared final
+src/net/GraphViz.java:25:	Avoid printStackTrace(); use a logger call instead.
+src/net/GraphViz.java:29:	publicMethodCommentRequirement Required
+src/net/GraphViz.java:37:	System.out.println is used
+src/net/GraphViz.java:40:	Parameter 'dotcode' is not assigned and could be declared final
+src/net/GraphViz.java:40:	Parameter 'filename' is not assigned and could be declared final
+src/net/GraphViz.java:40:	publicMethodCommentRequirement Required
+src/net/GraphViz.java:42:	Local variable 'file' could be declared final
+src/net/GraphViz.java:46:	Local variable 'fos' could be declared final
+src/net/GraphViz.java:49:	Unnecessary use of fully qualified name 'java.io.IOException' due to existing import 'java.io.IOException'
+src/net/GraphViz.java:50:	Avoid printStackTrace(); use a logger call instead.
+src/net/GraphViz.java:54:	Parameter 'dotPath' is not assigned and could be declared final
+src/net/GraphViz.java:54:	Parameter 'nameGraph' is not assigned and could be declared final
+src/net/GraphViz.java:54:	Parameter 'runPath' is not assigned and could be declared final
+src/net/GraphViz.java:54:	publicMethodCommentRequirement Required
+src/net/GraphViz.java:60:	Parameter 'line' is not assigned and could be declared final
+src/net/GraphViz.java:60:	publicMethodCommentRequirement Required
+src/net/GraphViz.java:61:	Avoid concatenating nonliterals in a StringBuffer/StringBuilder constructor or append().
+src/net/GraphViz.java:64:	Parameter 'line' is not assigned and could be declared final
+src/net/GraphViz.java:64:	publicMethodCommentRequirement Required
+src/net/GraphViz.java:68:	publicMethodCommentRequirement Required
+src/net/GraphViz.java:72:	Method names should not contain underscores
+src/net/GraphViz.java:72:	publicMethodCommentRequirement Required
+src/net/GraphViz.java:76:	Method names should not contain underscores
+src/net/GraphViz.java:76:	publicMethodCommentRequirement Required
+src/net/GraphViz.java:77:	Avoid appending characters as strings in StringBuffer.append.
